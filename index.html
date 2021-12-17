@@ -153,7 +153,7 @@
 					
 					const arc2 = d3.arc()
 						.innerRadius(height/3-margin/2)
-						.outerRadius(d => height/3-margin/2+d.cnt/d3.max(mbdata.Relevant, d=>d.cnt)*100)
+						.outerRadius(d => height/3-margin/2+d.pos*100)
 						.startAngle((d,i) => i*2*Math.PI/2137)
 						.endAngle((d,i) => (i+1)*2*Math.PI/2137);
 						
@@ -219,12 +219,12 @@
 						.attr("stroke-width", "1.5px")
 						.attr("stroke", "none")
 						.attr("class", "mbarea")
-						// .on("mouseover", function(){
-						// 	d3.selectAll(".mbarea").attr("stroke", "#f4606c")
-						// })
-						// .on("mouseout", function(){
-						// 	d3.selectAll(".mbarea").attr("stroke", "none")
-						// });
+						.on("mouseover", function(){
+							d3.selectAll(".ccarea").attr("opacity", 0.5)
+						})
+						.on("mouseout", function(){
+							d3.selectAll(".ccarea").attr("opacity", 1)
+						});
 					const ccarea = brushmap.append("g").data(mbdata.ccdata)
 						.append("path")
 						.attr("d", AreaGenerator(mbdata.ccdata))
@@ -232,14 +232,14 @@
 						.attr("stroke-width", "1.5px")
 						.attr("stroke", "none")
 						.attr("class", "ccarea")
-						// .on("mouseover", function(){
-						// 	d3.selectAll(".ccarea").attr("stroke", "#ffaa7f")
-						// })
-						// .on("mouseout", function(){
-						// 	d3.selectAll(".ccarea").attr("stroke", "none")
-						// });
+						.on("mouseover", function(){
+							d3.selectAll(".mbarea").attr("opacity", 0.5)
+						})
+						.on("mouseout", function(){
+							d3.selectAll(".mbarea").attr("opacity", 1)
+						});
 					
-					// Legend
+					// Legend_area
 					brushmap.append("circle").attr("r", 10).attr("fill", "#f4606c")
 							.attr("cx", 5*margin).attr("cy", height-2*margin)
 					brushmap.append("text").text("mbdata")
@@ -248,6 +248,16 @@
 							.attr("cx", 5*margin+100).attr("cy", height-2*margin)
 					brushmap.append("text").text("ccdata")
 						.attr("transform", `translate(${5*margin+110}, ${height-2*margin+5})`)
+						
+					// Legen_map
+					map.append("circle").attr("r", 10).attr("fill", "#f4606c")
+							.attr("cx", 10*margin).attr("cy", 0)
+					map.append("text").text("mbdata")
+						.attr("transform", `translate(${10*margin+15}, ${5})`)
+					map.append("circle").attr("r", 10).attr("fill", "#ffaa7f")
+							.attr("cx", 10*margin).attr("cy", 30)
+					map.append("text").text("ccdata")
+						.attr("transform", `translate(${10*margin+15}, ${35})`)
 						
 						
 					let tooltip = d3.select("body").append("div")
@@ -260,11 +270,10 @@
 						.append("circle")
 						.attr("cx", d => projection([d.longitude,d.latitude])[0])
 						.attr("cy", d => projection([d.longitude,d.latitude])[1])
-						.attr("r", 5)
+						.attr("r", 7)
 						.attr("fill", "#f4606c")
 						.on("mouseover", function (event, d){
-							d3.select(this).attr("r", 7)
-							.attr("stroke-width", "3.5px");
+							d3.select(this).attr("r", 9);
 							
 							tooltip.transition()
 								.duration(250) // 设置transition效果的速度，默认为500ms
@@ -292,14 +301,13 @@
 						.append("circle")
 						.attr("cx", d => projection([d.longitude,d.latitude])[0])
 						.attr("cy", d => projection([d.longitude,d.latitude])[1])
-						.attr("r", 20)
-						.attr("opacity", 0.5)
-						.attr("fill", "#ffaa00")
+						.attr("r", 7)
+						.attr("opacity", 1)
+						.attr("fill", "#ffaa7f")
 						.attr("class", (d, i)=>"graph"+i)
 						.attr("title", d=>d.message)
 						.on("mouseover", function (event, d){
-							d3.select(this).attr('stroke', "black")
-							.attr("stroke-width", "3.5px")
+							d3.select(this).attr('r', 9)
 							
 							tooltip.transition()
 								.duration(250) // 设置transition效果的速度，默认为500ms
@@ -342,9 +350,19 @@
 							// circle.attr("r", 0);
 						} else {
 							const [x0, x1] = selection.map(scaleX.invert);
-							circle.attr("r", d => x0 <= new Date(d.date) && new Date(d.date) <= x1 ? 20:0)
-							cccircle.attr("r", d => x0 <= new Date(d.date) && new Date(d.date) <= x1 ? 5:0)
-							arcs2.attr("fill", d => x0 <= new Date(d.date) && new Date(d.date) <= x1 ? "#8cc7b5":"gray")
+							circle.attr("r", d => x0 <= new Date(d.date) && new Date(d.date) <= x1 ? 7:0)
+							cccircle.attr("r", d => x0 <= new Date(d.date) && new Date(d.date) <= x1 ? 7:0)
+							arcs2.attr("fill", d =>{
+								if (x0 <= new Date(d.date) && new Date(d.date) <= x1){
+									if (d.pos>=0.5){
+										return "#ffaa7f"
+									} else{
+										return "#8cc7b5"
+									}
+								} else{
+									return "gray"
+								}
+							})
 
 							d3.selectAll(".container").remove()
 							
@@ -504,7 +522,7 @@
 								var choice = document.getElementById("test")[+document.single.test.value].id
 								d3.select("svg").append("g").attr("id", "cloud")
 									.attr("style", "border:1px solid red")
-									.attr("transform", `translate(${width-14.7*margin+250},${margin/2+240}	)`)
+									.attr("transform", `translate(${width-14.7*margin+250},${margin/2+230}	)`)
 									.selectAll("text")
 									.data(words)
 									.enter().append("text")
@@ -659,7 +677,7 @@
 									.text(d=>d.tags)
 									.attr("class", "tags")
 									
-								// d3.selectAll("#cloud").remove()
+								d3.selectAll("#cloud").remove()
 								var worddict = {}
 								for (let item of mbdata[choice]){
 									for (let key in item.tfidf){
@@ -712,7 +730,7 @@
 					}
 					
 					svg.append("rect").attr("width", 500).attr("height", 500)
-						.attr("transform", `translate(${width-14.6*margin}, ${margin/4})`)
+						.attr("transform", `translate(${width-14.6*margin}, ${margin/4-10})`)
 						.attr("rx", 10).attr("ry", 10)
 						.attr("fill", "white")
 						.attr("stroke", "gray")
@@ -731,7 +749,7 @@
 						var choice = document.getElementById("test")[+document.single.test.value].id
 						d3.select("svg").append("g").attr("id", "cloud")
 							.attr("style", "border:1px solid red")
-							.attr("transform", `translate(${width-14.7*margin+250},${margin/2+240})`)
+							.attr("transform", `translate(${width-14.7*margin+250},${margin/2+220})`)
 							.selectAll("text")
 							.data(words)
 							.enter().append("text")
