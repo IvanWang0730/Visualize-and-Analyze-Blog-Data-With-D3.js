@@ -134,7 +134,7 @@
 	</head>
 	<body>
 		
-		<form name="block" action="" method="" style="position:absolute;top:0px;left:0px;">
+		<form name="main" action="" method="" style="position:absolute;top:0px;left:0px;">
 		<div class="textblock" id="leftblock" style="width: 2020px;height: 1389px;">
 			<div class="lsiblock">
 				<h2 class="year"></h2>
@@ -142,7 +142,12 @@
 				<div id="lsi" style="position: relative;top:250px;left:430px;transform: scale(1.4);"></div>
 			</div>
 			<div class="lsiblock">
+				<select id="option_area"  name="option" style = "height:50px;font-size:30px;border-radius:10px;background:white;color:black;top: 100px">
+					<option value="0" id="Relevant">mbdata/ccdata</option>
+					<option value="1" id="Chatter">Relevant/Chatter/Spam</option>
+				</select>
 				<svg id="SVG"></svg>
+				
 			</div>
 		</div>
 		<!-- <form name="block" action="" method="" style="position:absolute;top:0px;left:0px;">
@@ -274,12 +279,13 @@
 						.attr("fill", "#f4606c")
 						.attr("stroke-width", "1.5px")
 						.attr("stroke", "none")
-						.attr("class", "mbarea")
+						.attr("class", "area0")
+						.attr("id", "mbarea")
 						.on("mouseover", function(){
-							d3.selectAll(".ccarea").attr("opacity", 0)
+							d3.selectAll("#ccarea").attr("opacity", 0)
 						})
 						.on("mouseout", function(){
-							d3.selectAll(".ccarea").attr("opacity", 1)
+							d3.selectAll(".area0").attr("opacity", 1)
 						});
 					const ccarea = brushmap.append("g").data(mbdata.ccdata)
 						.append("path")
@@ -287,30 +293,139 @@
 						.attr("fill", "#ffaa7f")
 						.attr("stroke-width", "1.5px")
 						.attr("stroke", "none")
-						.attr("class", "ccarea")
+						.attr("class", "area0")
+						.attr("id", "ccarea")
 						.on("mouseover", function(){
-							d3.selectAll(".mbarea").attr("opacity", 0)
+							d3.selectAll("#mbarea").attr("opacity", 0)
 						})
 						.on("mouseout", function(){
-							d3.selectAll(".mbarea").attr("opacity", 1)
+							d3.selectAll(".area0").attr("opacity", 1)
 						});
+						
+					d3.selectAll("#option_area")
+						.on("change", function(){
+							console.log(+document.main.option.value)
+							if (+document.main.option.value==0){
+								d3.selectAll(".area1").remove()
+								
+								const mbarea = brushmap.append("g").data(mbdata.Relevant)
+									.append("path")
+									.attr("d", AreaGenerator(mbdata.Relevant))
+									.attr("fill", "#f4606c")
+									.attr("stroke-width", "1.5px")
+									.attr("stroke", "none")
+									.attr("class", "area0")
+									.attr("id", "mbarea")
+									.on("mouseover", function(){
+										d3.selectAll("#ccdata").attr("opacity", 0)
+									})
+									.on("mouseout", function(){
+										d3.selectAll(".area0").attr("opacity", 1)
+									});
+								const ccarea = brushmap.append("g").data(mbdata.ccdata)
+									.append("path")
+									.attr("d", AreaGenerator(mbdata.ccdata))
+									.attr("fill", "#ffaa7f")
+									.attr("stroke-width", "1.5px")
+									.attr("stroke", "none")
+									.attr("class", "area0")
+									.attr("id", "ccarea")
+									.on("mouseover", function(){
+										d3.selectAll("#mbdata").attr("opacity", 0)
+									})
+									.on("mouseout", function(){
+										d3.selectAll(".area0").attr("opacity", 1)
+									});
+									
+								brushmap.append("circle").attr("r", 10).attr("fill", "#f4606c")
+										.attr("cx", 5*margin).attr("cy", height-3*margin).attr("class", "area0")
+								brushmap.append("text").text("mbdata").attr("class", "area0")
+									.attr("transform", `translate(${5*margin+10}, ${height-3*margin+5})`)
+								brushmap.append("circle").attr("r", 10).attr("fill", "#ffaa7f")
+										.attr("cx", 5*margin+100).attr("cy", height-3*margin).attr("class", "area0")
+								brushmap.append("text").text("ccdata").attr("class", "area0")
+									.attr("transform", `translate(${5*margin+110}, ${height-3*margin+5})`)
+							}
+							if (+document.main.option.value==1){
+								d3.selectAll(".area0").remove()
+								
+								const chatterarea = brushmap.append("g").data(mbdata.Chatter)
+									.append("path")
+									.attr("d", AreaGenerator(mbdata.Chatter))
+									.attr("fill", "#b2ffdd")
+									.attr("stroke-width", "1.5px")
+									.attr("stroke", "none")
+									.attr("class", "area1")
+									.attr("id", "chatterarea")
+									.on("mouseover", function(){
+										d3.selectAll("#relevantarea").attr("opacity", 0)
+										d3.selectAll("#spamarea").attr("opacity", 0)
+									})
+									.on("mouseout", function(){
+										d3.selectAll(".area1").attr("opacity", 1)
+									});
+								const spamarea = brushmap.append("g").data(mbdata.Spam)
+									.append("path")
+									.attr("d", AreaGenerator(mbdata.Spam))
+									.attr("fill", "#ffd3af")
+									.attr("stroke-width", "1.5px")
+									.attr("stroke", "none")
+									.attr("class", "area1")
+									.attr("id", "spamarea")
+									.on("mouseover", function(){
+										d3.selectAll("#relevantarea").attr("opacity", 0)
+										d3.selectAll("#chatterarea").attr("opacity", 0)
+									})
+									.on("mouseout", function(){
+										d3.selectAll(".area1").attr("opacity", 1)
+									});
+								const relevantarea = brushmap.append("g").data(mbdata.Relevant)
+									.append("path")
+									.attr("d", AreaGenerator(mbdata.Relevant))
+									.attr("fill", "#f49ea4")
+									.attr("stroke-width", "1.5px")
+									.attr("stroke", "none")
+									.attr("class", "area1")
+									.attr("id", "relevantarea")
+									.on("mouseover", function(){
+										d3.selectAll("#chatterarea").attr("opacity", 0)
+										d3.selectAll("#spamarea").attr("opacity", 0)
+									})
+									.on("mouseout", function(){
+										d3.selectAll(".area1").attr("opacity", 1)
+									});
+								
+								brushmap.append("circle").attr("r", 10).attr("fill", "#f49ea4")
+										.attr("cx", 5*margin).attr("cy", height-3*margin).attr("class", "area1")
+								brushmap.append("text").text("Relevant").attr("class", "area1")
+									.attr("transform", `translate(${5*margin+10}, ${height-3*margin+5})`)
+								brushmap.append("circle").attr("r", 10).attr("fill", "#ffd3af")
+										.attr("cx", 5*margin+100).attr("cy", height-3*margin).attr("class", "area1")
+								brushmap.append("text").text("Chatter").attr("class", "area1")
+									.attr("transform", `translate(${5*margin+110}, ${height-3*margin+5})`)
+								brushmap.append("circle").attr("r", 10).attr("fill", "#b2ffdd")
+										.attr("cx", 5*margin+200).attr("cy", height-3*margin).attr("class", "area1")
+								brushmap.append("text").text("Spam").attr("class", "area1")
+									.attr("transform", `translate(${5*margin+210}, ${height-3*margin+5})`)
+							}
+						})
 					
 					// Legend_area
 					brushmap.append("circle").attr("r", 10).attr("fill", "#f4606c")
-							.attr("cx", 5*margin).attr("cy", height-3*margin)
-					brushmap.append("text").text("mbdata")
+							.attr("cx", 5*margin).attr("cy", height-3*margin).attr("class", "area0")
+					brushmap.append("text").text("mbdata").attr("class", "area0")
 						.attr("transform", `translate(${5*margin+10}, ${height-3*margin+5})`)
 					brushmap.append("circle").attr("r", 10).attr("fill", "#ffaa7f")
-							.attr("cx", 5*margin+100).attr("cy", height-3*margin)
-					brushmap.append("text").text("ccdata")
+							.attr("cx", 5*margin+100).attr("cy", height-3*margin).attr("class", "area0")
+					brushmap.append("text").text("ccdata").attr("class", "area0")
 						.attr("transform", `translate(${5*margin+110}, ${height-3*margin+5})`)
 						
 					// Legen_map
-					map.append("circle").attr("r", 10).attr("fill", "#f4606c")
+					map.append("circle").attr("r", 10).attr("fill", "#ffaa7f")
 							.attr("cx", 8*margin).attr("cy", 20)
 					map.append("text").text("mbdata")
 						.attr("transform", `translate(${8*margin+15}, ${25})`)
-					map.append("circle").attr("r", 10).attr("fill", "#ffaa7f")
+					map.append("circle").attr("r", 10).attr("fill", "#f4606c")
 							.attr("cx", 8*margin).attr("cy", 50)
 					map.append("text").text("ccdata")
 						.attr("transform", `translate(${8*margin+15}, ${55})`)
