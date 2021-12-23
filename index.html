@@ -103,7 +103,7 @@
 		<meta charset="utf-8">
 		<title>
 		</title>
-		<script type="text/javascript">
+		<!-- <script type="text/javascript">
 		          window.onload = function() {
 		              document.onkeydown = function() {
 		                 var e = window.event || arguments[0];
@@ -154,7 +154,7 @@
 		document.oncontextmenu = nocontextmenu; // for IE5+
 		document.onmousedown = norightclick; // for all others
 		         }
-		</script>
+		</script> -->
 		<style>
 			body {
 				background-color: floralwhite;
@@ -378,6 +378,7 @@
 						.attr("fill", "white")
 						.attr("stroke-width", "0.0px")
 						.attr("stroke", "#000002")
+						.attr("class", "path_map")
 						.attr("transform", `translate(${6.2*margin}, ${3.8*margin})`)
 						.on("mouseover", function (event, d){
 							tooltip.transition()
@@ -504,7 +505,7 @@
 								const chatterarea = brushmap.append("g").data(mbdata.Chatter)
 									.append("path")
 									.attr("d", AreaGenerator(mbdata.Chatter))
-									.attr("fill", "#b2ffdd")
+									.attr("fill", "#ffaaff")
 									.attr("stroke-width", "1.5px")
 									.attr("stroke", "none")
 									.attr("class", "area1")
@@ -519,7 +520,7 @@
 								const spamarea = brushmap.append("g").data(mbdata.Spam)
 									.append("path")
 									.attr("d", AreaGenerator(mbdata.Spam))
-									.attr("fill", "#ffd3af")
+									.attr("fill", "#00aa7f")
 									.attr("stroke-width", "1.5px")
 									.attr("stroke", "none")
 									.attr("class", "area1")
@@ -534,7 +535,7 @@
 								const relevantarea = brushmap.append("g").data(mbdata.Relevant)
 									.append("path")
 									.attr("d", AreaGenerator(mbdata.Relevant))
-									.attr("fill", "#f49ea4")
+									.attr("fill", "#55aaff")
 									.attr("stroke-width", "1.5px")
 									.attr("stroke", "none")
 									.attr("class", "area1")
@@ -547,15 +548,15 @@
 										d3.selectAll(".area1").attr("opacity", 1)
 									});
 								
-								brushmap.append("circle").attr("r", 10).attr("fill", "#f49ea4")
+								brushmap.append("circle").attr("r", 10).attr("fill", "#55aaff")
 										.attr("cx", 5*margin).attr("cy", height-3*margin).attr("class", "area1")
 								brushmap.append("text").text("Relevant").attr("class", "area1")
 									.attr("transform", `translate(${5*margin+10}, ${height-3*margin+5})`)
-								brushmap.append("circle").attr("r", 10).attr("fill", "#ffd3af")
+								brushmap.append("circle").attr("r", 10).attr("fill", "#ffaaff")
 										.attr("cx", 5*margin+100).attr("cy", height-3*margin).attr("class", "area1")
 								brushmap.append("text").text("Chatter").attr("class", "area1")
 									.attr("transform", `translate(${5*margin+110}, ${height-3*margin+5})`)
-								brushmap.append("circle").attr("r", 10).attr("fill", "#b2ffdd")
+								brushmap.append("circle").attr("r", 10).attr("fill", "#00aa7f")
 										.attr("cx", 5*margin+200).attr("cy", height-3*margin).attr("class", "area1")
 								brushmap.append("text").text("Spam").attr("class", "area1")
 									.attr("transform", `translate(${5*margin+210}, ${height-3*margin+5})`)
@@ -594,6 +595,7 @@
 						.attr("cx", d => projection([d.longitude,d.latitude])[0])
 						.attr("cy", d => projection([d.longitude,d.latitude])[1])
 						.attr("r", 7)
+						.attr("class", "circle_map")
 						.attr("fill", "#f4606c")
 						.on("mouseover", function (event, d){
 							d3.select(this).attr("r", 9);
@@ -628,7 +630,7 @@
 						.attr("r", 7)
 						.attr("opacity", 1)
 						.attr("fill", "#ffaa7f")
-						.attr("class", (d, i)=>"graph"+i)
+						.attr("class", "circle_map")
 						.attr("title", d=>d.message)
 						.on("mouseover", function (event, d){
 							d3.select(this).attr('r', 9)
@@ -653,8 +655,184 @@
 								.style("opacity", 0);
 						})
 						.on("click", function(event, d){
-							
+							// 图
+							createforcegraph(d)
 						});
+					
+					function createforcegraph(d) {
+						d3.json("graph.json").then(function (data){
+							var nodes = new Array()
+							var links = new Array()
+							nodes.push({"id":d.author, "group":1})
+							for (let person of data[d.author]){
+								nodes.push({"id":person, "group":1})
+								links.push({"source":d.author, "target":person, "value":2})
+							}
+							var graph = {"nodes": nodes, "links": links}
+							console.log(graph)
+							
+							let simulation = d3.forceSimulation(graph.nodes)
+								.force("link", d3.forceLink(graph.links)	
+									  .id(d => d.id)
+									  .strength(d => d.source.group === d.target.group ? 1 : 0.3))
+								.force("charge", d3.forceManyBody().strength(-125)) 
+								.force("center", d3.forceCenter(0.7*width, 0.65*height));
+							
+							function convexHulls(nodes) {
+								
+								let offset = 15; // 可以控制区域边界大小
+								let hulls = {};
+							
+								for (let k=0; k<nodes.length; ++k) {
+									let n = nodes[k];
+									if (n.size) continue;
+									let i = n.group, l = hulls[i] || (hulls[i] = []);
+							
+									// l 记录了一个点的正方形区域的四个顶点
+									l.push([n.x-offset, n.y-offset]);
+									l.push([n.x-offset, n.y+offset]);
+									l.push([n.x+offset, n.y-offset]);
+									l.push([n.x+offset, n.y+offset]);
+							}
+							
+							let hullset = [];
+							for (i in hulls) {
+									// d3.polygonHull可以求多边形最外层的点，返回的顺序是顺时针
+									hullset.push({group: i, path: d3.polygonHull(hulls[i])});
+								}
+								return hullset;
+							}
+							
+							// d3.line.curve()方法用于绘制一条曲线
+							let curve = d3.line().curve(d3.curveCardinalClosed.tension(0.01));
+							
+							// 分类绘制凸壳
+							function drawCluster(d) {
+								//返回曲线路径
+								return curve(d.path);
+							}
+							
+							//定义凸壳组件
+							let hulls = svg.append("g")
+								.selectAll("path.hull")
+								.data(convexHulls(graph.nodes))
+								.enter()
+								.append("path")
+								.attr("class", "hull")
+								.attr("d", drawCluster)
+								.style("fill", function(d) { return fill(d.group); });
+							
+							// 定义人物节点之间连线的信息
+							let link = svg.append("g")
+								.attr("stroke", "#999")
+								.attr("stroke-opacity", 0.6)
+								.selectAll("line") // 用line元素来绘制
+								.data(graph.links) // 绑定json文件中的links数据
+								.join("line")
+								.attr("stroke-width", d => Math.sqrt(d.value)); // 连线粗细通过线的value计算
+							
+							// 定义人物节点信息
+							let node = svg.append("g")
+								.attr("stroke", "#fff")
+								.attr("stroke-width", 1.5)
+								.selectAll("circle") // 人物节点通过圆来绘制 
+								.data(graph.nodes)// 为人物节点绑定nodes数据
+								.join("circle")
+								.attr("r", 5)// 设置节点半径
+								.attr("fill", function(d) { return fill(d.group); })  // 设置节点的填充色，通过节点的group属性来计算节点的填充颜色
+								// .call(
+							
+									// 
+									//  Q2: 增加拖拽事件，调用后面定义的三个阶段的监听函数 //
+								.call(
+									d3.drag()
+									.on("start", dragstarted)
+									.on("drag", dragged)
+									.on("end", dragended)
+								)
+									// 
+							
+								// )
+								.on('mouseover', function (event,d) {
+							
+									// 
+									//  Q3: 鼠标hover的时候圆圈放大效果
+									// 
+							
+									d3.select(this).transition().attr("r", 10);
+							
+									tooltip.transition()
+										.duration(250) // 设置transition效果的速度，默认为500ms
+										.style("opacity", 1);
+							
+									tooltip.html(
+										"<p> Name: " + d.id + "<br>" + 'Group: ' + d.group + "</p>"
+									)
+										// 设置tooltip距离鼠标的相对位置
+										.style("left", (event.pageX + 15) + "px")
+										.style("top", (event.pageY - 28) + "px");
+							
+								})
+								.on('mouseout', function (event,d) {
+							
+									// 
+									//  Q3: 鼠标离开的时候圆圈还原
+									//
+									
+									d3.select(this).transition().attr("r", 5);
+							
+									tooltip.transition()
+										.duration(250)
+										.style("opacity", 0);
+							
+								});
+								
+							simulation.on("tick", () => {
+							
+								// 每次tick计时到时，连接线的响应动作
+								link
+									.attr("x1", d => d.source.x)
+									.attr("y1", d => d.source.y)
+									.attr("x2", d => d.target.x)
+									.attr("y2", d => d.target.y);
+							
+								// 每次tick计时到时，节点的响应动作
+								node
+									.attr("cx", d => d.x)
+									.attr("cy", d => d.y);
+								
+								// 每次tick计时到时，凸壳的响应动作
+								hulls
+									.data(convexHulls(graph.nodes))
+									.attr("d", drawCluster);
+								});
+							
+							// 定义开始拖拽节点时的动作，注意v6版本是通过event返回的函数参数来处理的
+							function dragstarted(event) {
+								
+								// 当开始拖动时，restart()方法重新启动模拟器的内部计时器并返回模拟器，
+								// alpha将保持在0.3左右，使模拟不断移动
+								if (!event.active) simulation.alphaTarget(0.3).restart();
+								event.subject.fx = event.subject.x;
+								event.subject.fy = event.subject.y;
+							}
+							
+							// 定义拖拽中的动作
+							function dragged(event) {
+								event.subject.fx = event.x;
+								event.subject.fy = event.y;
+							}
+							
+							// 定义拖拽结束的动作
+							// 在拖动结束时，alphaTarget被设置回0，因此再次稳定下来，这就是阻力相互作用后力返回的原因
+							function dragended(event) {
+								if (!event.active) simulation.alphaTarget(0);
+								event.subject.fx = null;
+								event.subject.fy = null;
+							}
+						})
+						
+					}
 						
 					const brush = d3.brushX()
 						.extent([[0.1*margin, height-1.5*margin], [width-3.1*margin, height]])
@@ -672,6 +850,8 @@
 							.attr("cy", d => projection([d.longitude,d.latitude])[1])
 						
 						change(d3.min(mbdata["Relevant"], d=>new Date(d.date)), d3.max(mbdata["Relevant"], d=>new Date(d.date)))
+						d3.selectAll(".circle_map").attr("r", 0);
+						d3.selectAll(".path_map").attr("fill", "gray")
 					};
 					
 					function brushed({selection}){
@@ -939,7 +1119,6 @@
 								});
 						}
 					}
-					
 					
 					// 右边文字信息处理
 					d3.select("#blocktitle").text(mbdata["Relevant"].length+"/"+mbdata["Relevant"].length)
