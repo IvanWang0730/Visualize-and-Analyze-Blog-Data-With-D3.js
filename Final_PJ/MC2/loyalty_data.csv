@@ -1,0 +1,1393 @@
+timestamp,location,price,loyaltynum
+01/06/2014,Brew've Been Served,4.17,L2247
+01/06/2014,Brew've Been Served,9.6,L9406
+01/06/2014,Hallowed Grounds,16.53,L8328
+01/06/2014,Coffee Shack,11.51,L6417
+01/06/2014,Hallowed Grounds,12.93,L1107
+01/06/2014,Brew've Been Served,4.27,L4034
+01/06/2014,Brew've Been Served,11.2,L6110
+01/06/2014,Brew've Been Served,15.39,L2343
+01/06/2014,Abila Zacharo,26.93,L9018
+01/06/2014,Hippokampos,34.03,L6267
+01/06/2014,Kalami Kafenion,8.64,L4034
+01/06/2014,Katerina’s Café,33.54,L6110
+01/06/2014,Hippokampos,36.54,L1107
+01/06/2014,Ouzeri Elian,20.74,L2247
+01/06/2014,Kalami Kafenion,13.08,L6417
+01/06/2014,Hippokampos,38.25,L2343
+01/06/2014,Hippokampos,30.88,L9406
+01/06/2014,Kalami Kafenion,27.4,L8328
+01/06/2014,Katerina’s Café,38.65,L6110
+01/06/2014,Katerina’s Café,26.46,L8328
+01/06/2014,Frydos Autosupply n' More,80.85,L2343
+01/06/2014,Frydos Autosupply n' More,175.87,L2247
+01/06/2014,Katerina’s Café,28,L6267
+01/06/2014,Hippokampos,24.41,L6417
+01/06/2014,Frydos Autosupply n' More,89.3,L4034
+01/06/2014,Katerina’s Café,26.51,L9406
+01/07/2014,Brew've Been Served,12.74,L2247
+01/07/2014,Hallowed Grounds,8.91,L8328
+01/07/2014,Coffee Shack,16.63,L6417
+01/07/2014,Brew've Been Served,4.39,L4034
+01/07/2014,Brew've Been Served,11.91,L9406
+01/07/2014,Hallowed Grounds,8.42,L1107
+01/07/2014,Coffee Cameleon,12.44,L9018
+01/07/2014,Brew've Been Served,17.4,L2343
+01/07/2014,Hallowed Grounds,10.33,L6267
+01/07/2014,Brew've Been Served,15.66,L6110
+01/07/2014,Kalami Kafenion,11.64,L4034
+01/07/2014,Ouzeri Elian,28.37,L9406
+01/07/2014,Ouzeri Elian,17.71,L2247
+01/07/2014,Abila Zacharo,32.4,L9018
+01/07/2014,Gelatogalore,36.5,L1107
+01/07/2014,Ouzeri Elian,21.85,L6110
+01/07/2014,Katerina’s Café,37.44,L2343
+01/07/2014,Gelatogalore,15.4,L6267
+01/07/2014,Hippokampos,37.57,L8328
+01/07/2014,Albert's Fine Clothing,78.91,L6417
+01/07/2014,Katerina’s Café,31.6,L6110
+01/07/2014,Katerina’s Café,25.02,L2343
+01/07/2014,Guy's Gyros,23.12,L2247
+01/07/2014,Katerina’s Café,25.54,L6267
+01/07/2014,Ouzeri Elian,20.53,L1107
+01/08/2014,Hallowed Grounds,5.85,L8328
+01/08/2014,Brew've Been Served,3.09,L9406
+01/08/2014,Hallowed Grounds,3.9,L1107
+01/08/2014,Coffee Shack,13.13,L6417
+01/08/2014,Brew've Been Served,14.88,L2247
+01/08/2014,Brew've Been Served,8.4,L4034
+01/08/2014,Brew've Been Served,3.92,L2343
+01/08/2014,Hallowed Grounds,11.63,L6267
+01/08/2014,Brew've Been Served,11.48,L6110
+01/08/2014,Coffee Cameleon,16.17,L9018
+01/08/2014,Abila Zacharo,22.13,L4034
+01/08/2014,Gelatogalore,32.79,L6110
+01/08/2014,Kalami Kafenion,18.18,L6267
+01/08/2014,Kalami Kafenion,22.49,L2343
+01/08/2014,Ouzeri Elian,24.92,L2247
+01/08/2014,Abila Zacharo,28.25,L1107
+01/08/2014,Gelatogalore,22.27,L9018
+01/08/2014,Kalami Kafenion,34.98,L6417
+01/08/2014,Gelatogalore,39.94,L9406
+01/08/2014,Kalami Kafenion,31.43,L8328
+01/08/2014,Katerina’s Café,34.25,L4034
+01/08/2014,Katerina’s Café,13.83,L6110
+01/08/2014,Frydos Autosupply n' More,214.07,L9018
+01/08/2014,Frydos Autosupply n' More,268.89,L6267
+01/08/2014,Hippokampos,16.75,L6417
+01/08/2014,Katerina’s Café,16.93,L2343
+01/09/2014,Hallowed Grounds,15.24,L8328
+01/09/2014,Coffee Shack,5.01,L6417
+01/09/2014,Brew've Been Served,18.25,L2343
+01/09/2014,Hallowed Grounds,16.72,L6267
+01/09/2014,Coffee Cameleon,4.88,L9018
+01/09/2014,Hallowed Grounds,15.33,L1107
+01/09/2014,Gelatogalore,19.2,L4034
+01/09/2014,Hippokampos,27.47,L9018
+01/09/2014,Gelatogalore,23.23,L6110
+01/09/2014,Hippokampos,19.22,L2247
+01/09/2014,Gelatogalore,24.68,L1107
+01/09/2014,Kalami Kafenion,19.84,L9406
+01/09/2014,Kalami Kafenion,10.94,L8328
+01/09/2014,Kalami Kafenion,35.99,L6267
+01/09/2014,Guy's Gyros,27.69,L2343
+01/09/2014,Gelatogalore,36.75,L6417
+01/09/2014,Katerina’s Café,35.92,L8328
+01/09/2014,Katerina’s Café,26.6,L9406
+01/09/2014,Katerina’s Café,30.97,L6267
+01/09/2014,Katerina’s Café,29.82,L2343
+01/09/2014,Albert's Fine Clothing,224.52,L6417
+01/09/2014,Katerina’s Café,13.78,L4034
+01/09/2014,Guy's Gyros,8.23,L2247
+01/09/2014,Shoppers' Delight,258.43,L1107
+01/10/2014,Hallowed Grounds,16.75,L8328
+01/10/2014,Brew've Been Served,4.88,L9406
+01/10/2014,Hallowed Grounds,17.63,L1107
+01/10/2014,Coffee Cameleon,9.69,L9018
+01/10/2014,Brew've Been Served,5.91,L2247
+01/10/2014,Hallowed Grounds,9.34,L6267
+01/10/2014,Brew've Been Served,14.36,L6110
+01/10/2014,Katerina’s Café,21.22,L9018
+01/10/2014,Abila Zacharo,31.34,L1107
+01/10/2014,Kalami Kafenion,27.48,L4034
+01/10/2014,Guy's Gyros,38.15,L6110
+01/10/2014,Ouzeri Elian,24.74,L2247
+01/10/2014,Guy's Gyros,16.34,L8328
+01/10/2014,Abila Zacharo,9.32,L6267
+01/10/2014,Gelatogalore,32.19,L2343
+01/10/2014,Hippokampos,19.88,L6417
+01/10/2014,Frydos Autosupply n' More,43.65,L2343
+01/10/2014,Katerina’s Café,8.14,L6110
+01/10/2014,Katerina’s Café,21.28,L4034
+01/10/2014,Guy's Gyros,25.81,L2247
+01/11/2014,Katerina’s Café,45.21,L9018
+01/11/2014,Hippokampos,22.23,L6267
+01/11/2014,Kalami Kafenion,35.66,L6417
+01/11/2014,Shoppers' Delight,238.52,L9018
+01/11/2014,General Grocer,78.02,L8328
+01/11/2014,Katerina’s Café,20.71,L6267
+01/11/2014,Guy's Gyros,36.2,L2247
+01/11/2014,Katerina’s Café,25.76,L9406
+01/11/2014,Katerina’s Café,52.45,L2343
+01/11/2014,Frydos Autosupply n' More,236.25,L8328
+01/11/2014,Hippokampos,69.8,L6417
+01/11/2014,Katerina’s Café,94.68,L9018
+01/12/2014,Ouzeri Elian,98.45,L4034
+01/12/2014,Hippokampos,29.2,L6417
+01/12/2014,Guy's Gyros,30.47,L8328
+01/12/2014,Kronos Mart,147.3,L4034
+01/12/2014,General Grocer,159.3,L6417
+01/12/2014,Katerina’s Café,40.94,L4034
+01/12/2014,Frydos Autosupply n' More,88.93,L2247
+01/12/2014,Katerina’s Café,39.3,L8328
+01/12/2014,Katerina’s Café,16.34,L6110
+01/12/2014,Katerina’s Café,40.25,L9406
+01/12/2014,Frydos Autosupply n' More,161.96,L2343
+01/13/2014,Brew've Been Served,9.53,L9406
+01/13/2014,Hallowed Grounds,6.32,L6267
+01/13/2014,Brew've Been Served,13.37,L6110
+01/13/2014,Coffee Cameleon,17.49,L9018
+01/13/2014,Coffee Shack,4.09,L6417
+01/13/2014,Hallowed Grounds,15.96,L1107
+01/13/2014,Brew've Been Served,19.89,L2343
+01/13/2014,Katerina’s Café,38.98,L9018
+01/13/2014,Hippokampos,14.04,L4034
+01/13/2014,Guy's Gyros,21.03,L6110
+01/13/2014,Kalami Kafenion,20.33,L2247
+01/13/2014,Gelatogalore,36.24,L2343
+01/13/2014,Guy's Gyros,38.07,L6417
+01/13/2014,Gelatogalore,37.17,L1107
+01/13/2014,Hippokampos,26.96,L9406
+01/13/2014,Guy's Gyros,36.87,L8328
+01/13/2014,Frydos Autosupply n' More,188.57,L8328
+01/13/2014,Frydos Autosupply n' More,64.6,L6110
+01/13/2014,Ouzeri Elian,21.83,L1107
+01/13/2014,Katerina’s Café,33.57,L4034
+01/13/2014,Guy's Gyros,19.77,L2247
+01/13/2014,Hippokampos,32.29,L6417
+01/13/2014,Frydos Autosupply n' More,202.05,L9018
+01/14/2014,Brew've Been Served,14.67,L2247
+01/14/2014,Hallowed Grounds,16.67,L8328
+01/14/2014,Brew've Been Served,14.04,L9406
+01/14/2014,Brew've Been Served,9.53,L2343
+01/14/2014,Coffee Cameleon,11.67,L9018
+01/14/2014,Hallowed Grounds,10.65,L1107
+01/14/2014,Brew've Been Served,16.39,L4034
+01/14/2014,Coffee Shack,3.63,L6417
+01/14/2014,Hallowed Grounds,6.16,L6267
+01/14/2014,Brew've Been Served,11.53,L6110
+01/14/2014,Abila Zacharo,31.09,L6110
+01/14/2014,Kalami Kafenion,33.13,L4034
+01/14/2014,Katerina’s Café,11.26,L9018
+01/14/2014,Katerina’s Café,31.69,L6267
+01/14/2014,Ouzeri Elian,33.67,L1107
+01/14/2014,Kalami Kafenion,27.65,L9406
+01/14/2014,Gelatogalore,35.97,L2247
+01/14/2014,Ouzeri Elian,19.7,L6417
+01/14/2014,Gelatogalore,22.03,L8328
+01/14/2014,Hippokampos,16.73,L2343
+01/14/2014,Guy's Gyros,35.12,L2247
+01/14/2014,Katerina’s Café,31.94,L4034
+01/14/2014,Katerina’s Café,26.61,L2343
+01/14/2014,Ouzeri Elian,20.95,L1107
+01/14/2014,Katerina’s Café,25.4,L6110
+01/14/2014,Katerina’s Café,28.05,L6267
+01/14/2014,Frydos Autosupply n' More,49.21,L9406
+01/15/2014,Hallowed Grounds,18.69,L6267
+01/15/2014,Brew've Been Served,3.14,L9406
+01/15/2014,Brew've Been Served,8.42,L2247
+01/15/2014,Brew've Been Served,5.75,L6110
+01/15/2014,Coffee Shack,18.17,L6417
+01/15/2014,Coffee Cameleon,16.31,L9018
+01/15/2014,Hallowed Grounds,14.39,L1107
+01/15/2014,Brew've Been Served,3.47,L2343
+01/15/2014,Katerina’s Café,28.56,L9018
+01/15/2014,Kalami Kafenion,38.5,L4034
+01/15/2014,Ouzeri Elian,25.7,L2247
+01/15/2014,Kalami Kafenion,37.15,L6110
+01/15/2014,Guy's Gyros,12.19,L6267
+01/15/2014,Gelatogalore,24.96,L6417
+01/15/2014,Ouzeri Elian,26.61,L8328
+01/15/2014,Guy's Gyros,16.58,L2343
+01/15/2014,Gelatogalore,22.36,L1107
+01/15/2014,Abila Zacharo,26.82,L9406
+01/15/2014,Katerina’s Café,36.8,L6267
+01/15/2014,Guy's Gyros,24.91,L2247
+01/15/2014,Katerina’s Café,38.81,L4034
+01/15/2014,Katerina’s Café,29.33,L6110
+01/15/2014,Katerina’s Café,29.66,L9018
+01/15/2014,Katerina’s Café,21.61,L2343
+01/15/2014,Albert's Fine Clothing,228.15,L6417
+01/15/2014,Frydos Autosupply n' More,276.88,L9406
+01/15/2014,Ouzeri Elian,8.57,L1107
+01/16/2014,Brew've Been Served,5.05,L2247
+01/16/2014,Hallowed Grounds,17.92,L8328
+01/16/2014,Coffee Shack,10.48,L6417
+01/16/2014,Brew've Been Served,3.84,L9406
+01/16/2014,Coffee Cameleon,3.14,L9018
+01/16/2014,Hallowed Grounds,18.23,L6267
+01/16/2014,Hallowed Grounds,4.6,L1107
+01/16/2014,Brew've Been Served,11.21,L6110
+01/16/2014,Katerina’s Café,39.74,L4034
+01/16/2014,Hippokampos,13.05,L6267
+01/16/2014,Abila Zacharo,24.38,L9406
+01/16/2014,Katerina’s Café,38.32,L2247
+01/16/2014,Kalami Kafenion,9.27,L2343
+01/16/2014,Ouzeri Elian,8.52,L9018
+01/16/2014,Ouzeri Elian,8.47,L6417
+01/16/2014,Ouzeri Elian,31.21,L1107
+01/16/2014,Guy's Gyros,36.48,L8328
+01/16/2014,Octavio's Office Supplies,131.01,L2247
+01/16/2014,Katerina’s Café,13.68,L6110
+01/16/2014,Katerina’s Café,29.3,L4034
+01/16/2014,Albert's Fine Clothing,283.38,L6417
+01/16/2014,Katerina’s Café,18.79,L8328
+01/16/2014,Ouzeri Elian,22.65,L1107
+01/16/2014,Katerina’s Café,35.43,L9018
+01/16/2014,Katerina’s Café,30.56,L2343
+01/16/2014,Frydos Autosupply n' More,130.01,L9406
+01/17/2014,Brew've Been Served,11.69,L2247
+01/17/2014,Brew've Been Served,8.07,L9406
+01/17/2014,Coffee Shack,19.16,L6417
+01/17/2014,Hallowed Grounds,5.52,L6267
+01/17/2014,Coffee Cameleon,7.49,L9018
+01/17/2014,Brew've Been Served,18.15,L4034
+01/17/2014,Brew've Been Served,14.58,L6110
+01/17/2014,Hippokampos,38.21,L9018
+01/17/2014,Gelatogalore,18.1,L1107
+01/17/2014,Hippokampos,23.54,L6267
+01/17/2014,Kalami Kafenion,24.21,L6110
+01/17/2014,Guy's Gyros,15.12,L2343
+01/17/2014,Guy's Gyros,21.1,L6417
+01/17/2014,Abila Zacharo,11.95,L2247
+01/17/2014,Katerina’s Café,30.72,L9406
+01/17/2014,Ouzeri Elian,26.1,L8328
+01/17/2014,Katerina’s Café,21.16,L9018
+01/17/2014,Hippokampos,19.76,L6417
+01/17/2014,Frydos Autosupply n' More,124.52,L9406
+01/17/2014,Katerina’s Café,14.93,L8328
+01/17/2014,Katerina’s Café,36.12,L2343
+01/17/2014,Ouzeri Elian,26.4,L1107
+01/17/2014,Katerina’s Café,33.73,L4034
+01/17/2014,Frydos Autosupply n' More,67.29,L2247
+01/18/2014,Katerina’s Café,34.54,L6267
+01/18/2014,Kalami Kafenion,30.12,L2247
+01/18/2014,Kalami Kafenion,42.73,L2343
+01/18/2014,Gelatogalore,24.38,L1107
+01/18/2014,Katerina’s Café,37.26,L6110
+01/18/2014,Frydos Autosupply n' More,103.41,L2247
+01/18/2014,Albert's Fine Clothing,189.52,L6267
+01/18/2014,Frydos Autosupply n' More,234.53,L4034
+01/18/2014,Guy's Gyros,28.07,L2247
+01/18/2014,Ouzeri Elian,14.9,L1107
+01/18/2014,Katerina’s Café,32.68,L9018
+01/18/2014,Katerina’s Café,45.88,L6110
+01/18/2014,Hippokampos,55.03,L6417
+01/06/2014,Albert's Fine Clothing,276.9,L5777
+01/06/2014,Hallowed Grounds,8.05,L5777
+01/06/2014,Bean There Done That,10.28,L7783
+01/06/2014,Guy's Gyros,15.44,L7783
+01/06/2014,Hippokampos,21.33,L7783
+01/06/2014,Bean There Done That,16.09,L3191
+01/06/2014,Guy's Gyros,30.82,L3191
+01/06/2014,Abila Zacharo,30.08,L4164
+01/06/2014,Brewed Awakenings,5.72,L4164
+01/06/2014,Hippokampos,17.27,L4164
+01/06/2014,Jack's Magical Beans,11.03,L6267
+01/06/2014,Katerina’s Café,18.56,L6267
+01/06/2014,Coffee Cameleon,8.73,L1682
+01/06/2014,Gelatogalore,12.74,L1682
+01/06/2014,Katerina’s Café,23.63,L1682
+01/06/2014,Brew've Been Served,18.24,L1485
+01/06/2014,Katerina’s Café,39.41,L1485
+01/06/2014,Brewed Awakenings,16.89,L5947
+01/06/2014,Ouzeri Elian,38.9,L5947
+01/06/2014,Gelatogalore,22.64,L6119
+01/06/2014,Bean There Done That,8.54,L3014
+01/06/2014,Hippokampos,8.64,L3014
+01/06/2014,Hippokampos,26.8,L3014
+01/06/2014,Brewed Awakenings,4.35,L2070
+01/06/2014,Hippokampos,20.61,L2070
+01/06/2014,Bean There Done That,5.24,L4149
+01/06/2014,Hippokampos,35.34,L4149
+01/06/2014,Abila Zacharo,18.11,L6544
+01/06/2014,Guy's Gyros,15.29,L6544
+01/06/2014,Hallowed Grounds,12.22,L6544
+01/06/2014,Hallowed Grounds,10.07,L4424
+01/06/2014,Katerina’s Café,13.59,L4424
+01/06/2014,Katerina’s Café,12.32,L4424
+01/06/2014,Brew've Been Served,8.88,L5259
+01/06/2014,Gelatogalore,23.41,L5259
+01/06/2014,Guy's Gyros,28.94,L5259
+01/06/2014,Brew've Been Served,4.24,L3800
+01/06/2014,Guy's Gyros,16.92,L3800
+01/06/2014,Guy's Gyros,39.29,L3800
+01/06/2014,Hallowed Grounds,16.72,L5553
+01/06/2014,Katerina’s Café,32.64,L5553
+01/06/2014,Bean There Done That,4.27,L3366
+01/06/2014,Hippokampos,25.5,L3366
+01/06/2014,Ouzeri Elian,20.4,L3366
+01/06/2014,Brew've Been Served,8.33,L8148
+01/06/2014,Guy's Gyros,37.82,L8148
+01/06/2014,Ouzeri Elian,20.56,L8148
+01/06/2014,Carlyle Chemical Inc.,3959.66,L4063
+01/06/2014,Abila Airport,4540.08,L4063
+01/06/2014,Abila Airport,777.06,L4063
+01/06/2014,Kronos Pipe and Irrigation,242.21,L4063
+01/06/2014,Maximum Iron and Steel,2859.51,L4063
+01/06/2014,Ouzeri Elian,16.84,L4063
+01/06/2014,Brew've Been Served,14.97,L3572
+01/06/2014,Brew've Been Served,3.67,L2490
+01/06/2014,Guy's Gyros,22.57,L2490
+01/06/2014,Kalami Kafenion,30.1,L2490
+01/06/2014,U-Pump,59.51,L2490
+01/06/2014,Abila Airport,612.47,L2769
+01/06/2014,Albert's Fine Clothing,121.76,L2169
+01/06/2014,Brew've Been Served,15.58,L2169
+01/06/2014,Kalami Kafenion,22.31,L2169
+01/06/2014,Nationwide Refinery,761.64,L9633
+01/06/2014,Stewart and Sons Fabrication,2144.62,L9633
+01/06/2014,Coffee Cameleon,11.86,L9637
+01/06/2014,Frydos Autosupply n' More,197.32,L9637
+01/06/2014,Frydos Autosupply n' More,274.98,L8012
+01/06/2014,Guy's Gyros,11.22,L8012
+01/06/2014,Abila Zacharo,50.14,L3288
+01/06/2014,Frydos Autosupply n' More,253.87,L3288
+01/06/2014,Jack's Magical Beans,18.59,L3288
+01/06/2014,Gelatogalore,36.33,L7814
+01/06/2014,Hallowed Grounds,10.66,L7814
+01/06/2014,Katerina’s Café,26.1,L7814
+01/06/2014,Abila Zacharo,23.15,L3259
+01/06/2014,Brew've Been Served,12.83,L3259
+01/06/2014,Katerina’s Café,17.92,L3259
+01/06/2014,Coffee Cameleon,8.39,L3295
+01/06/2014,Katerina’s Café,15.52,L3295
+01/06/2014,Ouzeri Elian,30.87,L3295
+01/06/2014,Brew've Been Served,5.66,L9363
+01/06/2014,Guy's Gyros,11.94,L9363
+01/06/2014,Katerina’s Café,19.65,L9363
+01/06/2014,Jack's Magical Beans,7.84,L5224
+01/06/2014,Brew've Been Served,16.9,L7291
+01/06/2014,Ouzeri Elian,34.71,L7291
+01/06/2014,Brew've Been Served,11.34,L8566
+01/06/2014,Hippokampos,13.26,L8566
+01/06/2014,Abila Zacharo,12.05,L9254
+01/06/2014,Brew've Been Served,10.68,L9254
+01/06/2014,Shoppers' Delight,293.67,L9254
+01/06/2014,Guy's Gyros,19.67,L6886
+01/06/2014,Jack's Magical Beans,18.1,L6886
+01/07/2014,Gelatogalore,21.52,L5777
+01/07/2014,Hallowed Grounds,4.44,L5777
+01/07/2014,Ouzeri Elian,25.27,L5777
+01/07/2014,Abila Zacharo,13.52,L7783
+01/07/2014,Bean There Done That,11.25,L7783
+01/07/2014,Hippokampos,11.56,L7783
+01/07/2014,Guy's Gyros,10.11,L3191
+01/07/2014,Abila Zacharo,12.72,L4164
+01/07/2014,Hippokampos,15.85,L4164
+01/07/2014,Abila Zacharo,22.25,L6267
+01/07/2014,Jack's Magical Beans,3.68,L6267
+01/07/2014,Coffee Cameleon,7.66,L1682
+01/07/2014,Gelatogalore,34.04,L1682
+01/07/2014,Katerina’s Café,19.49,L1682
+01/07/2014,Brewed Awakenings,4.84,L1485
+01/07/2014,Guy's Gyros,22.33,L1485
+01/07/2014,Hippokampos,31.69,L1485
+01/07/2014,Brewed Awakenings,11.59,L5947
+01/07/2014,Guy's Gyros,34.09,L5947
+01/07/2014,Hippokampos,21.2,L5947
+01/07/2014,Hallowed Grounds,14.05,L6119
+01/07/2014,Katerina’s Café,22.27,L6119
+01/07/2014,Katerina’s Café,14.75,L6119
+01/07/2014,Bean There Done That,13.89,L3014
+01/07/2014,Hippokampos,20.17,L3014
+01/07/2014,Kalami Kafenion,22.83,L3014
+01/07/2014,Brewed Awakenings,6.72,L2070
+01/07/2014,Gelatogalore,35.06,L2070
+01/07/2014,Hippokampos,22.18,L2070
+01/07/2014,Bean There Done That,8.03,L4149
+01/07/2014,Hippokampos,10.19,L4149
+01/07/2014,Hallowed Grounds,18.97,L6544
+01/07/2014,Kalami Kafenion,22.14,L6544
+01/07/2014,Gelatogalore,31.77,L4424
+01/07/2014,Abila Zacharo,25.9,L5259
+01/07/2014,Guy's Gyros,14.87,L5259
+01/07/2014,Brew've Been Served,5.08,L3800
+01/07/2014,Guy's Gyros,22.25,L3800
+01/07/2014,Kalami Kafenion,25.9,L3800
+01/07/2014,Guy's Gyros,12.57,L5553
+01/07/2014,Hallowed Grounds,9.92,L5553
+01/07/2014,Katerina’s Café,17.26,L5553
+01/07/2014,Albert's Fine Clothing,228.36,L3366
+01/07/2014,Bean There Done That,6.25,L3366
+01/07/2014,Ouzeri Elian,24.84,L3366
+01/07/2014,Guy's Gyros,11.31,L8148
+01/07/2014,Abila Airport,3840.37,L7761
+01/07/2014,Stewart and Sons Fabrication,1200.9,L7761
+01/07/2014,Brew've Been Served,11.92,L3572
+01/07/2014,Brew've Been Served,9.06,L2490
+01/07/2014,Guy's Gyros,31.23,L2490
+01/07/2014,Katerina’s Café,31.41,L2490
+01/07/2014,Abila Airport,124.89,L2769
+01/07/2014,Abila Airport,3411.29,L2769
+01/07/2014,Brew've Been Served,3,L2169
+01/07/2014,Katerina’s Café,10.9,L2169
+01/07/2014,Carlyle Chemical Inc.,3827.2,L5756
+01/07/2014,Katerina’s Café,19.07,L5756
+01/07/2014,Nationwide Refinery,1562.66,L5756
+01/07/2014,Nationwide Refinery,1347.36,L9633
+01/07/2014,Stewart and Sons Fabrication,1783.33,L9633
+01/07/2014,Kronos Pipe and Irrigation,3920.82,L8477
+01/07/2014,Maximum Iron and Steel,3207.31,L8477
+01/07/2014,Coffee Cameleon,11.55,L9637
+01/07/2014,Katerina’s Café,10.07,L9637
+01/07/2014,Ouzeri Elian,29.1,L9637
+01/07/2014,Hallowed Grounds,7.88,L8012
+01/07/2014,Katerina’s Café,18.35,L8012
+01/07/2014,Jack's Magical Beans,18.77,L3288
+01/07/2014,Kalami Kafenion,45.05,L3288
+01/07/2014,Ouzeri Elian,11.41,L3288
+01/07/2014,Hallowed Grounds,9.61,L7814
+01/07/2014,Hippokampos,16.11,L7814
+01/07/2014,Katerina’s Café,32.83,L7814
+01/07/2014,Brew've Been Served,14.49,L3259
+01/07/2014,Gelatogalore,17.21,L3259
+01/07/2014,Katerina’s Café,33.29,L3259
+01/07/2014,Coffee Cameleon,9.1,L3295
+01/07/2014,Gelatogalore,8.97,L3295
+01/07/2014,Katerina’s Café,19.53,L3295
+01/07/2014,Brew've Been Served,7.74,L9363
+01/07/2014,Frydos Autosupply n' More,272.73,L9363
+01/07/2014,Ouzeri Elian,19.51,L9363
+01/07/2014,Abila Scrapyard,2149.28,L3317
+01/07/2014,Abila Airport,1641.96,L3317
+01/07/2014,Nationwide Refinery,889.58,L3317
+01/07/2014,Guy's Gyros,29.57,L5224
+01/07/2014,Jack's Magical Beans,19.61,L5224
+01/07/2014,Abila Zacharo,17.81,L7291
+01/07/2014,Brew've Been Served,18.53,L7291
+01/07/2014,Kalami Kafenion,18.06,L8566
+01/07/2014,Brewed Awakenings,12.59,L9254
+01/07/2014,Guy's Gyros,38.56,L9254
+01/07/2014,Guy's Gyros,9.76,L9254
+01/07/2014,Gelatogalore,8.98,L6886
+01/07/2014,Hippokampos,37.88,L6886
+01/07/2014,Jack's Magical Beans,9.84,L6886
+01/08/2014,Hippokampos,39.8,L5777
+01/08/2014,Ouzeri Elian,10.81,L5777
+01/08/2014,Abila Zacharo,14.41,L7783
+01/08/2014,Bean There Done That,17.45,L7783
+01/08/2014,Hippokampos,10.52,L7783
+01/08/2014,Albert's Fine Clothing,136.01,L3191
+01/08/2014,Bean There Done That,12.07,L3191
+01/08/2014,Hippokampos,28.79,L3191
+01/08/2014,Brewed Awakenings,11.73,L4164
+01/08/2014,Hippokampos,26.31,L4164
+01/08/2014,Ouzeri Elian,32.61,L4164
+01/08/2014,Jack's Magical Beans,3.96,L6267
+01/08/2014,Katerina’s Café,8.53,L6267
+01/08/2014,Ouzeri Elian,29.85,L6267
+01/08/2014,Coffee Cameleon,6.59,L1682
+01/08/2014,Hippokampos,16.59,L1682
+01/08/2014,Katerina’s Café,19.12,L1682
+01/08/2014,Brew've Been Served,12.92,L1485
+01/08/2014,Frank's Fuel,65.34,L1485
+01/08/2014,Frydos Autosupply n' More,182.56,L1485
+01/08/2014,Guy's Gyros,17.9,L1485
+01/08/2014,Brewed Awakenings,12.32,L5947
+01/08/2014,Chostus Hotel,107.51,L5947
+01/08/2014,Hippokampos,16.54,L5947
+01/08/2014,Gelatogalore,35.29,L6119
+01/08/2014,Hallowed Grounds,19.92,L6119
+01/08/2014,Katerina’s Café,36.6,L6119
+01/08/2014,Hippokampos,12.62,L3014
+01/08/2014,Hippokampos,26.55,L2070
+01/08/2014,Hippokampos,15.64,L2070
+01/08/2014,Bean There Done That,14.96,L4149
+01/08/2014,Hippokampos,37.89,L4149
+01/08/2014,General Grocer,265.84,L6544
+01/08/2014,Guy's Gyros,15.86,L4424
+01/08/2014,Hallowed Grounds,8.15,L4424
+01/08/2014,Katerina’s Café,27.87,L4424
+01/08/2014,Brew've Been Served,17.13,L5259
+01/08/2014,Gelatogalore,36.72,L5259
+01/08/2014,Brew've Been Served,3.42,L3800
+01/08/2014,Guy's Gyros,30.12,L3800
+01/08/2014,Guy's Gyros,28.81,L3800
+01/08/2014,Abila Zacharo,16.2,L5553
+01/08/2014,Hallowed Grounds,3.4,L5553
+01/08/2014,Bean There Done That,16.18,L3366
+01/08/2014,Hippokampos,32.66,L3366
+01/08/2014,Katerina’s Café,37.04,L3366
+01/08/2014,Brew've Been Served,8.27,L8148
+01/08/2014,Kalami Kafenion,14.77,L8148
+01/08/2014,Brew've Been Served,7.26,L3572
+01/08/2014,Brew've Been Served,11.87,L2490
+01/08/2014,Gelatogalore,39.75,L2490
+01/08/2014,Guy's Gyros,19.08,L2490
+01/08/2014,Abila Airport,2723.18,L2769
+01/08/2014,Abila Airport,2769.12,L2769
+01/08/2014,Brew've Been Served,6.3,L2169
+01/08/2014,Guy's Gyros,10.34,L2169
+01/08/2014,Guy's Gyros,30.48,L2169
+01/08/2014,Nationwide Refinery,4513.16,L5485
+01/08/2014,Stewart and Sons Fabrication,1738.26,L5485
+01/08/2014,Carlyle Chemical Inc.,4901.88,L5756
+01/08/2014,Katerina’s Café,29.26,L5756
+01/08/2014,Nationwide Refinery,4367.43,L5756
+01/08/2014,Nationwide Refinery,3674.32,L9633
+01/08/2014,Stewart and Sons Fabrication,1673.77,L9633
+01/08/2014,Carlyle Chemical Inc.,4983.52,L8477
+01/08/2014,Kronos Pipe and Irrigation,3615.61,L8477
+01/08/2014,Maximum Iron and Steel,3136.01,L8477
+01/08/2014,Coffee Cameleon,15.71,L9637
+01/08/2014,Katerina’s Café,26.45,L9637
+01/08/2014,Katerina’s Café,33.31,L9637
+01/08/2014,Katerina’s Café,31.59,L8012
+01/08/2014,Gelatogalore,50.36,L3288
+01/08/2014,Jack's Magical Beans,18.78,L3288
+01/08/2014,Ouzeri Elian,62.2,L3288
+01/08/2014,Hallowed Grounds,3.11,L7814
+01/08/2014,Kalami Kafenion,23.82,L7814
+01/08/2014,Brew've Been Served,13.68,L3259
+01/08/2014,Gelatogalore,20.72,L3259
+01/08/2014,Coffee Cameleon,12.26,L3295
+01/08/2014,Kalami Kafenion,24.08,L3295
+01/08/2014,Katerina’s Café,32.83,L3295
+01/08/2014,Abila Zacharo,30.85,L9363
+01/08/2014,Brew've Been Served,10.15,L9363
+01/08/2014,Jack's Magical Beans,12.37,L5224
+01/08/2014,Ouzeri Elian,29.73,L5224
+01/08/2014,Brew've Been Served,19.17,L7291
+01/08/2014,Chostus Hotel,111.89,L7291
+01/08/2014,Guy's Gyros,18.24,L7291
+01/08/2014,Brew've Been Served,12.3,L8566
+01/08/2014,Hippokampos,9.03,L8566
+01/08/2014,Brew've Been Served,15.66,L9254
+01/08/2014,Guy's Gyros,15.69,L9254
+01/08/2014,Kalami Kafenion,31.96,L9254
+01/08/2014,Abila Zacharo,36.85,L6886
+01/08/2014,Hippokampos,18.99,L6886
+01/08/2014,Jack's Magical Beans,11.25,L6886
+01/09/2014,Abila Zacharo,29.41,L5777
+01/09/2014,Hallowed Grounds,14.45,L5777
+01/09/2014,Bean There Done That,13,L7783
+01/09/2014,Guy's Gyros,14.91,L7783
+01/09/2014,Hippokampos,8.43,L3191
+01/09/2014,Hippokampos,10.12,L3191
+01/09/2014,Kronos Mart,203.91,L4164
+01/09/2014,Ouzeri Elian,26.09,L4164
+01/09/2014,Gelatogalore,8.6,L6267
+01/09/2014,Jack's Magical Beans,10.11,L6267
+01/09/2014,Katerina’s Café,17.02,L1682
+01/09/2014,Frydos Autosupply n' More,276.75,L1485
+01/09/2014,Jack's Magical Beans,6,L1485
+01/09/2014,Katerina’s Café,10.42,L1485
+01/09/2014,Brewed Awakenings,13.16,L5947
+01/09/2014,Gelatogalore,16.74,L5947
+01/09/2014,Hippokampos,15.02,L5947
+01/09/2014,Guy's Gyros,13.59,L6119
+01/09/2014,Guy's Gyros,8.23,L6119
+01/09/2014,Bean There Done That,4.06,L3014
+01/09/2014,Katerina’s Café,8.01,L3014
+01/09/2014,Albert's Fine Clothing,229.98,L2070
+01/09/2014,Brewed Awakenings,17.66,L2070
+01/09/2014,Frydos Autosupply n' More,60.65,L4149
+01/09/2014,Hippokampos,9.12,L4149
+01/09/2014,Hallowed Grounds,16.77,L6544
+01/09/2014,Ouzeri Elian,32.89,L6544
+01/09/2014,Abila Zacharo,20.73,L4424
+01/09/2014,Hallowed Grounds,17.84,L4424
+01/09/2014,Abila Zacharo,14.37,L5259
+01/09/2014,Brew've Been Served,5.3,L3800
+01/09/2014,Guy's Gyros,35.05,L3800
+01/09/2014,Kalami Kafenion,18.14,L3800
+01/09/2014,Guy's Gyros,15,L5553
+01/09/2014,Hallowed Grounds,18.48,L5553
+01/09/2014,Katerina’s Café,26,L5553
+01/09/2014,Bean There Done That,4.05,L3366
+01/09/2014,Hippokampos,24.96,L3366
+01/09/2014,Kalami Kafenion,30.76,L3366
+01/09/2014,Brew've Been Served,15.82,L8148
+01/09/2014,Guy's Gyros,29.96,L8148
+01/09/2014,Ouzeri Elian,22.4,L8148
+01/09/2014,Abila Airport,2358.22,L7761
+01/09/2014,Nationwide Refinery,1420.39,L7761
+01/09/2014,Stewart and Sons Fabrication,1015.65,L7761
+01/09/2014,Brew've Been Served,17.64,L3572
+01/09/2014,Guy's Gyros,18.26,L3572
+01/09/2014,Abila Zacharo,8.16,L2490
+01/09/2014,Brew've Been Served,12.12,L2490
+01/09/2014,Frydos Autosupply n' More,138.02,L2490
+01/09/2014,Abila Airport,182.93,L2769
+01/09/2014,Abila Airport,4538.52,L2769
+01/09/2014,Brew've Been Served,6.21,L2169
+01/09/2014,Guy's Gyros,31.31,L2169
+01/09/2014,Hippokampos,25.7,L2169
+01/09/2014,Carlyle Chemical Inc.,529.47,L5756
+01/09/2014,Carlyle Chemical Inc.,382.43,L5756
+01/09/2014,Carlyle Chemical Inc.,2176.2,L5756
+01/09/2014,Katerina’s Café,16.98,L5756
+01/09/2014,Nationwide Refinery,289.3,L5756
+01/09/2014,Nationwide Refinery,674.28,L9633
+01/09/2014,Stewart and Sons Fabrication,3544,L9633
+01/09/2014,Carlyle Chemical Inc.,732.82,L8477
+01/09/2014,Kronos Pipe and Irrigation,423.14,L8477
+01/09/2014,Maximum Iron and Steel,1527.14,L8477
+01/09/2014,Coffee Cameleon,16.13,L9637
+01/09/2014,Hallowed Grounds,17.56,L8012
+01/09/2014,Hippokampos,13.84,L8012
+01/09/2014,Katerina’s Café,8.57,L8012
+01/09/2014,Abila Zacharo,48.39,L3288
+01/09/2014,Katerina’s Café,19.02,L7814
+01/09/2014,Gelatogalore,11.94,L3259
+01/09/2014,Hallowed Grounds,10.25,L3259
+01/09/2014,Coffee Cameleon,19.99,L3295
+01/09/2014,Guy's Gyros,17.44,L3295
+01/09/2014,Katerina’s Café,26.6,L3295
+01/09/2014,Brew've Been Served,19.47,L9363
+01/09/2014,Abila Scrapyard,1158.36,L3317
+01/09/2014,Abila Airport,4792.5,L3317
+01/09/2014,Nationwide Refinery,1322.5,L3317
+01/09/2014,Stewart and Sons Fabrication,918.6,L3317
+01/09/2014,Hippokampos,23.66,L5224
+01/09/2014,Katerina’s Café,25.85,L5224
+01/09/2014,Brew've Been Served,10.71,L7291
+01/09/2014,Hippokampos,27.93,L7291
+01/09/2014,Brew've Been Served,5.13,L8566
+01/09/2014,Gelatogalore,23.45,L8566
+01/09/2014,General Grocer,285.34,L8566
+01/09/2014,Brew've Been Served,14.85,L9254
+01/09/2014,Guy's Gyros,25.4,L9254
+01/09/2014,Guy's Gyros,31.81,L9254
+01/09/2014,Abila Zacharo,8.6,L6886
+01/09/2014,Hippokampos,9.13,L6886
+01/09/2014,Jack's Magical Beans,17.43,L6886
+01/10/2014,Hallowed Grounds,6.87,L5777
+01/10/2014,Bean There Done That,15.39,L7783
+01/10/2014,Gelatogalore,26.15,L7783
+01/10/2014,Hippokampos,28.22,L7783
+01/10/2014,Bean There Done That,3.92,L3191
+01/10/2014,Guy's Gyros,31.5,L3191
+01/10/2014,Brewed Awakenings,13.82,L4164
+01/10/2014,Hippokampos,10.48,L4164
+01/10/2014,Katerina’s Café,34.76,L4164
+01/10/2014,Abila Zacharo,33.33,L6267
+01/10/2014,Jack's Magical Beans,15.69,L6267
+01/10/2014,Ouzeri Elian,19.92,L6267
+01/10/2014,Coffee Cameleon,8.51,L1682
+01/10/2014,Guy's Gyros,15.93,L1682
+01/10/2014,Octavio's Office Supplies,64.51,L1682
+01/10/2014,Brew've Been Served,14.45,L1485
+01/10/2014,Ouzeri Elian,35.24,L1485
+01/10/2014,Brewed Awakenings,6.17,L5947
+01/10/2014,Hallowed Grounds,10.34,L6119
+01/10/2014,Ouzeri Elian,25.98,L6119
+01/10/2014,Bean There Done That,13.41,L3014
+01/10/2014,Ouzeri Elian,15.25,L3014
+01/10/2014,Brewed Awakenings,13.9,L2070
+01/10/2014,Hippokampos,30.63,L2070
+01/10/2014,Hippokampos,17.21,L2070
+01/10/2014,Bean There Done That,18.67,L4149
+01/10/2014,Guy's Gyros,31.05,L4149
+01/10/2014,Hallowed Grounds,10.76,L6544
+01/10/2014,Katerina’s Café,37.62,L6544
+01/10/2014,Abila Zacharo,8.22,L4424
+01/10/2014,Hallowed Grounds,12.03,L4424
+01/10/2014,Abila Zacharo,36.38,L5259
+01/10/2014,Brew've Been Served,3.03,L5259
+01/10/2014,Shoppers' Delight,279.53,L5259
+01/10/2014,Brew've Been Served,3.44,L3800
+01/10/2014,Frydos Autosupply n' More,217.08,L3800
+01/10/2014,Guy's Gyros,26.68,L3800
+01/10/2014,Hallowed Grounds,8.34,L5553
+01/10/2014,Ouzeri Elian,30.93,L5553
+01/10/2014,Albert's Fine Clothing,126.13,L3366
+01/10/2014,Bean There Done That,9.3,L3366
+01/10/2014,Katerina’s Café,25.62,L3366
+01/10/2014,Brew've Been Served,15.85,L8148
+01/10/2014,Guy's Gyros,26.76,L8148
+01/10/2014,Guy's Gyros,23.61,L8148
+01/10/2014,Carlyle Chemical Inc.,227.81,L5924
+01/10/2014,Nationwide Refinery,2262.73,L5924
+01/10/2014,Stewart and Sons Fabrication,4195.49,L5924
+01/10/2014,Brew've Been Served,5.89,L3572
+01/10/2014,Brew've Been Served,5.01,L2490
+01/10/2014,Kalami Kafenion,35.69,L2490
+01/10/2014,Brew've Been Served,12.64,L2169
+01/10/2014,General Grocer,227.28,L2169
+01/10/2014,Kalami Kafenion,24.3,L2169
+01/10/2014,Nationwide Refinery,1552.82,L9633
+01/10/2014,Stewart and Sons Fabrication,4074.1,L9633
+01/10/2014,Carlyle Chemical Inc.,3489.36,L8477
+01/10/2014,Katerina’s Café,24.33,L9637
+01/10/2014,Abila Zacharo,36.73,L8012
+01/10/2014,Hallowed Grounds,11.49,L8012
+01/10/2014,Jack's Magical Beans,16.29,L3288
+01/10/2014,Kalami Kafenion,101.5,L3288
+01/10/2014,Abila Zacharo,16.12,L7814
+01/10/2014,Brew've Been Served,13.32,L3259
+01/10/2014,Katerina’s Café,15.76,L3259
+01/10/2014,Ouzeri Elian,20.46,L3259
+01/10/2014,Coffee Cameleon,11.54,L3295
+01/10/2014,Gelatogalore,39.4,L3295
+01/10/2014,Katerina’s Café,21.89,L3295
+01/10/2014,Brew've Been Served,5.31,L9363
+01/10/2014,Guy's Gyros,29.81,L9363
+01/10/2014,Hippokampos,39.89,L9363
+01/10/2014,Guy's Gyros,36.44,L5224
+01/10/2014,Jack's Magical Beans,5.46,L5224
+01/10/2014,Chostus Hotel,113.25,L7291
+01/10/2014,Brew've Been Served,17.25,L8566
+01/10/2014,Guy's Gyros,27.78,L8566
+01/10/2014,Hippokampos,39.26,L8566
+01/10/2014,Octavio's Office Supplies,139.72,L8566
+01/10/2014,Brew've Been Served,10.72,L9254
+01/10/2014,Katerina’s Café,25.36,L9254
+01/10/2014,Hippokampos,32.01,L6886
+01/10/2014,Hippokampos,39.97,L6886
+01/11/2014,Hippokampos,70.23,L7783
+01/11/2014,Hippokampos,67.37,L3191
+01/11/2014,Frydos Autosupply n' More,52.73,L4164
+01/11/2014,Hippokampos,66.21,L4164
+01/11/2014,Hippokampos,20.87,L4164
+01/11/2014,Ouzeri Elian,69.36,L6267
+01/11/2014,Katerina’s Café,29.17,L1682
+01/11/2014,Abila Zacharo,89.54,L5947
+01/11/2014,Katerina’s Café,57.36,L5947
+01/11/2014,Katerina’s Café,12.55,L6119
+01/11/2014,Hippokampos,63.21,L2070
+01/11/2014,Katerina’s Café,23.45,L4149
+01/11/2014,Kalami Kafenion,39.36,L6544
+01/11/2014,Katerina’s Café,17.6,L4424
+01/11/2014,Kalami Kafenion,23.86,L5259
+01/11/2014,Guy's Gyros,33.65,L3800
+01/11/2014,Gelatogalore,17.31,L5553
+01/11/2014,Katerina’s Café,55.67,L5553
+01/11/2014,Katerina’s Café,29.1,L3366
+01/11/2014,Guy's Gyros,55.69,L8148
+01/11/2014,Katerina’s Café,71.65,L2490
+01/11/2014,Albert's Fine Clothing,211.47,L2169
+01/11/2014,Hippokampos,23.38,L2169
+01/11/2014,Katerina’s Café,26.02,L9637
+01/11/2014,Katerina’s Café,33.18,L9637
+01/11/2014,Abila Zacharo,54.82,L8012
+01/11/2014,Katerina’s Café,45.68,L8012
+01/11/2014,Kalami Kafenion,50.2,L3288
+01/11/2014,Katerina’s Café,27.46,L7814
+01/11/2014,Katerina’s Café,9.78,L3259
+01/11/2014,Abila Zacharo,45.2,L9363
+01/11/2014,Frydos Autosupply n' More,261,L9363
+01/11/2014,Albert's Fine Clothing,105.33,L5224
+01/11/2014,Katerina’s Café,45.22,L5224
+01/11/2014,Ahaggo Museum,32.14,L7291
+01/11/2014,Hippokampos,32.63,L7291
+01/11/2014,Ahaggo Museum,89.32,L8566
+01/11/2014,Hippokampos,63.21,L8566
+01/11/2014,Guy's Gyros,16.33,L9254
+01/12/2014,Hippokampos,31.99,L5777
+01/12/2014,Hippokampos,66.63,L7783
+01/12/2014,Hippokampos,78.21,L3191
+01/12/2014,Desafio Golf Course,160.77,L4164
+01/12/2014,Hippokampos,63.32,L4164
+01/12/2014,Ouzeri Elian,55.55,L6267
+01/12/2014,Katerina’s Café,11.81,L1682
+01/12/2014,Guy's Gyros,34.41,L1485
+01/12/2014,Hippokampos,29.41,L5947
+01/12/2014,Kalami Kafenion,26.04,L5947
+01/12/2014,Hippokampos,8.54,L6119
+01/12/2014,Katerina’s Café,12.64,L6119
+01/12/2014,Albert's Fine Clothing,63.36,L3014
+01/12/2014,Desafio Golf Course,198.46,L2070
+01/12/2014,Hippokampos,26.79,L2070
+01/12/2014,Ouzeri Elian,38.55,L2070
+01/12/2014,Hippokampos,27.15,L4149
+01/12/2014,Guy's Gyros,42.32,L6544
+01/12/2014,Hippokampos,12.57,L4424
+01/12/2014,Katerina’s Café,27.09,L4424
+01/12/2014,Ouzeri Elian,24.72,L5259
+01/12/2014,Shoppers' Delight,204.37,L5259
+01/12/2014,Shoppers' Delight,211.03,L3800
+01/12/2014,Hippokampos,49.23,L3366
+01/12/2014,Kronos Mart,159.06,L8148
+01/12/2014,Shoppers' Delight,86.22,L3572
+01/12/2014,Guy's Gyros,42.78,L2490
+01/12/2014,Albert's Fine Clothing,195.81,L9637
+01/12/2014,Hippokampos,12.55,L9637
+01/12/2014,Ouzeri Elian,72.32,L8012
+01/12/2014,Shoppers' Delight,135.78,L8012
+01/12/2014,Gelatogalore,36.2,L3288
+01/12/2014,Kalami Kafenion,14.59,L7814
+01/12/2014,Katerina’s Café,15.37,L3259
+01/12/2014,Katerina’s Café,34.1,L9362
+01/12/2014,Katerina’s Café,67.14,L9362
+01/12/2014,Shoppers' Delight,51.5,L9362
+01/12/2014,Ahaggo Museum,120.2,L9363
+01/12/2014,Guy's Gyros,34.74,L9363
+01/12/2014,Hippokampos,52.21,L5224
+01/12/2014,Ouzeri Elian,117.22,L5224
+01/12/2014,Abila Zacharo,11.2,L7291
+01/12/2014,Desafio Golf Course,129.33,L6886
+01/13/2014,Hallowed Grounds,14.11,L5777
+01/13/2014,Hippokampos,30.51,L5777
+01/13/2014,Ouzeri Elian,28.75,L5777
+01/13/2014,Bean There Done That,7.93,L7783
+01/13/2014,Gelatogalore,36.93,L7783
+01/13/2014,Hippokampos,31.59,L7783
+01/13/2014,Abila Zacharo,11.99,L3191
+01/13/2014,Bean There Done That,18.02,L3191
+01/13/2014,Abila Zacharo,36.14,L4164
+01/13/2014,Albert's Fine Clothing,288,L4164
+01/13/2014,Brewed Awakenings,12.69,L4164
+01/13/2014,Jack's Magical Beans,18.31,L6267
+01/13/2014,Katerina’s Café,26.15,L6267
+01/13/2014,Coffee Cameleon,4.88,L1682
+01/13/2014,Hippokampos,35.73,L1682
+01/13/2014,Abila Zacharo,36.32,L1485
+01/13/2014,Brew've Been Served,12.8,L1485
+01/13/2014,Shoppers' Delight,216.43,L1485
+01/13/2014,Brewed Awakenings,16.4,L5947
+01/13/2014,Guy's Gyros,27.49,L5947
+01/13/2014,Hallowed Grounds,9.16,L6119
+01/13/2014,Katerina’s Café,37.88,L6119
+01/13/2014,Katerina’s Café,15.82,L6119
+01/13/2014,Bean There Done That,19.56,L3014
+01/13/2014,Ouzeri Elian,29.75,L3014
+01/13/2014,Brewed Awakenings,16.25,L2070
+01/13/2014,Gelatogalore,26.45,L2070
+01/13/2014,Hippokampos,31.47,L2070
+01/13/2014,Abila Zacharo,27.3,L4149
+01/13/2014,Albert's Fine Clothing,49.48,L4149
+01/13/2014,Bean There Done That,5.54,L4149
+01/13/2014,Guy's Gyros,33.48,L6544
+01/13/2014,Guy's Gyros,37.5,L6544
+01/13/2014,Hallowed Grounds,19.18,L6544
+01/13/2014,Bean There Done That,10.37,L4424
+01/13/2014,Katerina’s Café,8.29,L4424
+01/13/2014,Katerina’s Café,27.59,L4424
+01/13/2014,Abila Zacharo,17.41,L5259
+01/13/2014,Brew've Been Served,6.69,L5259
+01/13/2014,Guy's Gyros,15.84,L5259
+01/13/2014,Brew've Been Served,8.04,L3800
+01/13/2014,Guy's Gyros,36.89,L3800
+01/13/2014,Hippokampos,31.97,L3800
+01/13/2014,Bean There Done That,15.24,L5553
+01/13/2014,Hippokampos,25.09,L5553
+01/13/2014,Abila Zacharo,23.03,L3366
+01/13/2014,Bean There Done That,18.59,L3366
+01/13/2014,Abila Zacharo,39.95,L8148
+01/13/2014,Brew've Been Served,4.18,L8148
+01/13/2014,Carlyle Chemical Inc.,1718.96,L4063
+01/13/2014,Abila Airport,3617.47,L4063
+01/13/2014,Kronos Pipe and Irrigation,2852.74,L4063
+01/13/2014,Maximum Iron and Steel,689.85,L4063
+01/13/2014,Ouzeri Elian,19.82,L4063
+01/13/2014,Brew've Been Served,11.49,L3572
+01/13/2014,Guy's Gyros,28.57,L3572
+01/13/2014,Brew've Been Served,18.23,L2490
+01/13/2014,Abila Airport,4417.03,L2769
+01/13/2014,Abila Airport,2228.08,L2769
+01/13/2014,Brew've Been Served,16.05,L2169
+01/13/2014,Frydos Autosupply n' More,87.57,L2169
+01/13/2014,Hippokampos,17.17,L2169
+01/13/2014,Nationwide Refinery,204.58,L9633
+01/13/2014,Stewart and Sons Fabrication,4071.95,L9633
+01/13/2014,Coffee Cameleon,17.76,L9637
+01/13/2014,Guy's Gyros,37.37,L9637
+01/13/2014,Katerina’s Café,35.7,L9637
+01/13/2014,Katerina’s Café,11.36,L8012
+01/13/2014,Ouzeri Elian,8.32,L8012
+01/13/2014,Abila Zacharo,64.5,L3288
+01/13/2014,Jack's Magical Beans,5.22,L3288
+01/13/2014,Hallowed Grounds,13.68,L7814
+01/13/2014,Katerina’s Café,24.26,L7814
+01/13/2014,Hallowed Grounds,5.85,L3259
+01/13/2014,Katerina’s Café,33.11,L3259
+01/13/2014,Coffee Cameleon,19.93,L9362
+01/13/2014,Katerina’s Café,29.55,L9362
+01/13/2014,Katerina’s Café,29.83,L9362
+01/13/2014,Guy's Gyros,12.76,L9363
+01/13/2014,Shoppers' Delight,144.4,L9363
+01/13/2014,Gelatogalore,32.83,L5224
+01/13/2014,Hippokampos,39.63,L5224
+01/13/2014,Jack's Magical Beans,9.64,L5224
+01/13/2014,Abila Zacharo,8.72,L7291
+01/13/2014,Brew've Been Served,8,L7291
+01/13/2014,Brew've Been Served,18.71,L8566
+01/13/2014,Guy's Gyros,20.47,L8566
+01/13/2014,Ouzeri Elian,35.03,L8566
+01/13/2014,Brew've Been Served,19.64,L9254
+01/13/2014,Guy's Gyros,22.34,L9254
+01/13/2014,Hippokampos,39.9,L9254
+01/13/2014,Guy's Gyros,29.25,L6886
+01/13/2014,Hippokampos,29.22,L6886
+01/13/2014,Jack's Magical Beans,17.52,L6886
+01/14/2014,Kalami Kafenion,16.84,L5777
+01/14/2014,Ouzeri Elian,15.94,L5777
+01/14/2014,Bean There Done That,7.28,L7783
+01/14/2014,Hippokampos,39.64,L7783
+01/14/2014,Albert's Fine Clothing,228.72,L3191
+01/14/2014,Bean There Done That,19.37,L3191
+01/14/2014,Kalami Kafenion,17.38,L3191
+01/14/2014,Brewed Awakenings,17.14,L4164
+01/14/2014,Jack's Magical Beans,13.32,L6267
+01/14/2014,Ouzeri Elian,11.86,L6267
+01/14/2014,Coffee Cameleon,15.63,L1682
+01/14/2014,Hippokampos,36.01,L1682
+01/14/2014,Brew've Been Served,6.45,L1485
+01/14/2014,Hippokampos,19.07,L1485
+01/14/2014,Brewed Awakenings,8.3,L5947
+01/14/2014,Chostus Hotel,109.54,L5947
+01/14/2014,Hippokampos,22.13,L5947
+01/14/2014,Hallowed Grounds,10.75,L6119
+01/14/2014,Hippokampos,18.81,L6119
+01/14/2014,Katerina’s Café,31.8,L6119
+01/14/2014,Gelatogalore,10.98,L3014
+01/14/2014,Hippokampos,10.71,L3014
+01/14/2014,Brewed Awakenings,11.35,L2070
+01/14/2014,Hippokampos,23.56,L2070
+01/14/2014,Kalami Kafenion,15.15,L2070
+01/14/2014,Bean There Done That,7.82,L4149
+01/14/2014,Kalami Kafenion,15.27,L4149
+01/14/2014,Guy's Gyros,34.26,L6544
+01/14/2014,Hallowed Grounds,13,L6544
+01/14/2014,Ouzeri Elian,22.3,L6544
+01/14/2014,Guy's Gyros,16.35,L4424
+01/14/2014,Hallowed Grounds,19.99,L4424
+01/14/2014,Katerina’s Café,12.65,L4424
+01/14/2014,Brew've Been Served,11.94,L5259
+01/14/2014,Guy's Gyros,25.28,L5259
+01/14/2014,Katerina’s Café,33.54,L5259
+01/14/2014,Brew've Been Served,8.24,L3800
+01/14/2014,Gelatogalore,27.26,L3800
+01/14/2014,Guy's Gyros,12.96,L3800
+01/14/2014,Guy's Gyros,38.26,L5553
+01/14/2014,Hallowed Grounds,10.21,L5553
+01/14/2014,Katerina’s Café,18.35,L5553
+01/14/2014,Bean There Done That,5.9,L3366
+01/14/2014,Katerina’s Café,10.03,L3366
+01/14/2014,Abila Zacharo,8.41,L8148
+01/14/2014,Brew've Been Served,3.66,L8148
+01/14/2014,Abila Airport,2369.56,L7761
+01/14/2014,Nationwide Refinery,1301.01,L7761
+01/14/2014,Stewart and Sons Fabrication,540.19,L7761
+01/14/2014,Brew've Been Served,3.21,L3572
+01/14/2014,Albert's Fine Clothing,50.77,L2490
+01/14/2014,Brew've Been Served,10.96,L2490
+01/14/2014,Ouzeri Elian,27.32,L2490
+01/14/2014,Abila Airport,228.41,L2769
+01/14/2014,Abila Airport,4898.39,L2769
+01/14/2014,Abila Zacharo,24.87,L2169
+01/14/2014,Brewed Awakenings,12.74,L2169
+01/14/2014,Frydos Autosupply n' More,42.72,L2169
+01/14/2014,Carlyle Chemical Inc.,3630.57,L5756
+01/14/2014,Carlyle Chemical Inc.,794.88,L5756
+01/14/2014,Carlyle Chemical Inc.,3470.99,L5756
+01/14/2014,Nationwide Refinery,570.95,L5756
+01/14/2014,Nationwide Refinery,965.72,L9633
+01/14/2014,Stewart and Sons Fabrication,278.52,L9633
+01/14/2014,Coffee Cameleon,7.84,L9637
+01/14/2014,Abila Zacharo,10.24,L8012
+01/14/2014,Hallowed Grounds,4.59,L8012
+01/14/2014,Guy's Gyros,50.4,L3288
+01/14/2014,Jack's Magical Beans,3.36,L3288
+01/14/2014,Kalami Kafenion,23.1,L7814
+01/14/2014,Katerina’s Café,11.89,L7814
+01/14/2014,Abila Zacharo,15.26,L3259
+01/14/2014,Brew've Been Served,16.53,L3259
+01/14/2014,Roberts and Sons,203.81,L3259
+01/14/2014,Coffee Cameleon,9.8,L9362
+01/14/2014,Katerina’s Café,15.46,L9362
+01/14/2014,Katerina’s Café,36.95,L9362
+01/14/2014,Brew've Been Served,12.31,L9363
+01/14/2014,Frydos Autosupply n' More,146.74,L9363
+01/14/2014,Hippokampos,17.18,L9363
+01/14/2014,Abila Scrapyard,4277.4,L3317
+01/14/2014,Abila Airport,3339.21,L3317
+01/14/2014,Nationwide Refinery,4429.76,L3317
+01/14/2014,Jack's Magical Beans,15.7,L5224
+01/14/2014,Katerina’s Café,29.12,L5224
+01/14/2014,Brew've Been Served,5.87,L7291
+01/14/2014,Chostus Hotel,113.08,L7291
+01/14/2014,Brew've Been Served,4.72,L8566
+01/14/2014,Guy's Gyros,23.59,L8566
+01/14/2014,Katerina’s Café,29.1,L8566
+01/14/2014,Brew've Been Served,7.31,L9254
+01/14/2014,Guy's Gyros,26.14,L9254
+01/14/2014,Katerina’s Café,20.95,L9254
+01/14/2014,Gelatogalore,39.17,L6886
+01/14/2014,Hippokampos,9.55,L6886
+01/14/2014,Jack's Magical Beans,18.08,L6886
+01/15/2014,Hallowed Grounds,15.86,L5777
+01/15/2014,Ouzeri Elian,24.81,L5777
+01/15/2014,Ouzeri Elian,32.95,L5777
+01/15/2014,Guy's Gyros,14.37,L7783
+01/15/2014,Abila Zacharo,8.83,L3191
+01/15/2014,Bean There Done That,5.34,L3191
+01/15/2014,Hippokampos,35.12,L3191
+01/15/2014,Abila Zacharo,23.51,L4164
+01/15/2014,Brewed Awakenings,15.75,L4164
+01/15/2014,Hippokampos,13,L6267
+01/15/2014,Ouzeri Elian,23.18,L6267
+01/15/2014,Coffee Cameleon,5.49,L1682
+01/15/2014,Katerina’s Café,13.77,L1682
+01/15/2014,Ouzeri Elian,8.93,L1682
+01/15/2014,Brew've Been Served,15.58,L1485
+01/15/2014,Gelatogalore,31.21,L1485
+01/15/2014,Guy's Gyros,21.43,L1485
+01/15/2014,Brewed Awakenings,11.62,L5947
+01/15/2014,Frydos Autosupply n' More,18.91,L5947
+01/15/2014,Hippokampos,22.61,L5947
+01/15/2014,Abila Zacharo,31,L6119
+01/15/2014,Bean There Done That,13.13,L3014
+01/15/2014,Hippokampos,32.4,L3014
+01/15/2014,Hippokampos,16.37,L3014
+01/15/2014,Brewed Awakenings,3.62,L2070
+01/15/2014,Hippokampos,36.7,L2070
+01/15/2014,Shoppers' Delight,102,L2070
+01/15/2014,Bean There Done That,18.96,L4149
+01/15/2014,Hippokampos,10.35,L4149
+01/15/2014,Ouzeri Elian,36.47,L4149
+01/15/2014,Hallowed Grounds,12.17,L6544
+01/15/2014,Kronos Mart,258.83,L6544
+01/15/2014,Ouzeri Elian,22.86,L6544
+01/15/2014,Kalami Kafenion,26.17,L4424
+01/15/2014,Brew've Been Served,6.58,L5259
+01/15/2014,Gelatogalore,39.4,L5259
+01/15/2014,General Grocer,106.2,L5259
+01/15/2014,Brew've Been Served,3.71,L3800
+01/15/2014,Guy's Gyros,25.58,L5553
+01/15/2014,Hallowed Grounds,5.28,L5553
+01/15/2014,Katerina’s Café,11.45,L5553
+01/15/2014,Bean There Done That,15.24,L3366
+01/15/2014,Hippokampos,21.14,L3366
+01/15/2014,Kalami Kafenion,27.86,L3366
+01/15/2014,Brew've Been Served,15.5,L8148
+01/15/2014,Guy's Gyros,36.35,L8148
+01/15/2014,Brew've Been Served,11.23,L3572
+01/15/2014,Guy's Gyros,27.01,L3572
+01/15/2014,Brew've Been Served,14.06,L2490
+01/15/2014,Guy's Gyros,18.04,L2490
+01/15/2014,Ouzeri Elian,12.9,L2490
+01/15/2014,Abila Airport,3152.41,L2769
+01/15/2014,Abila Airport,875.87,L2769
+01/15/2014,Brew've Been Served,9.7,L2169
+01/15/2014,Guy's Gyros,31.04,L2169
+01/15/2014,Hippokampos,38.23,L2169
+01/15/2014,Stewart and Sons Fabrication,4485.38,L5485
+01/15/2014,Carlyle Chemical Inc.,3608.08,L5756
+01/15/2014,Carlyle Chemical Inc.,1112.04,L5756
+01/15/2014,Carlyle Chemical Inc.,1392.73,L5756
+01/15/2014,Katerina’s Café,24.15,L5756
+01/15/2014,Nationwide Refinery,3004.98,L5756
+01/15/2014,Nationwide Refinery,1391.24,L9633
+01/15/2014,Kronos Pipe and Irrigation,2564,L8477
+01/15/2014,Maximum Iron and Steel,4788.22,L8477
+01/15/2014,Coffee Cameleon,19.93,L9637
+01/15/2014,Guy's Gyros,15.89,L9637
+01/15/2014,Katerina’s Café,12.12,L8012
+01/15/2014,Katerina’s Café,39.63,L8012
+01/15/2014,Jack's Magical Beans,5.3,L3288
+01/15/2014,Katerina’s Café,55.6,L3288
+01/15/2014,Ouzeri Elian,28.86,L3288
+01/15/2014,Abila Zacharo,24.53,L7814
+01/15/2014,Hallowed Grounds,14.33,L7814
+01/15/2014,Katerina’s Café,39.23,L7814
+01/15/2014,Brew've Been Served,11.47,L3259
+01/15/2014,Abila Zacharo,33.8,L9362
+01/15/2014,Coffee Cameleon,14.47,L9362
+01/15/2014,Katerina’s Café,27.48,L9362
+01/15/2014,Brew've Been Served,18.58,L9363
+01/15/2014,Kalami Kafenion,28.82,L9363
+01/15/2014,Hippokampos,37.16,L5224
+01/15/2014,Jack's Magical Beans,4.06,L5224
+01/15/2014,Kalami Kafenion,22.39,L5224
+01/15/2014,Brew've Been Served,19.87,L7291
+01/15/2014,Frydos Autosupply n' More,235.27,L7291
+01/15/2014,Hippokampos,38.89,L7291
+01/15/2014,Brew've Been Served,4.92,L8566
+01/15/2014,General Grocer,137.65,L8566
+01/15/2014,Guy's Gyros,19.8,L8566
+01/15/2014,Guy's Gyros,29.34,L9254
+01/15/2014,Guy's Gyros,28.75,L9254
+01/15/2014,Gelatogalore,9.61,L6886
+01/15/2014,General Grocer,83.11,L6886
+01/15/2014,Jack's Magical Beans,19.54,L6886
+01/16/2014,Guy's Gyros,10.27,L5777
+01/16/2014,Hallowed Grounds,12.19,L5777
+01/16/2014,Ouzeri Elian,9.91,L5777
+01/16/2014,Bean There Done That,19.82,L7783
+01/16/2014,Hippokampos,31.14,L7783
+01/16/2014,Kronos Mart,286.24,L7783
+01/16/2014,Bean There Done That,12.33,L3191
+01/16/2014,Hippokampos,10.55,L3191
+01/16/2014,Kalami Kafenion,31.38,L3191
+01/16/2014,Hippokampos,20.84,L4164
+01/16/2014,Katerina’s Café,27.82,L4164
+01/16/2014,Hippokampos,36.17,L6267
+01/16/2014,Jack's Magical Beans,9.12,L6267
+01/16/2014,Ouzeri Elian,23.89,L6267
+01/16/2014,Coffee Cameleon,5.2,L1682
+01/16/2014,Hippokampos,16.53,L1682
+01/16/2014,Katerina’s Café,36.32,L1682
+01/16/2014,Brew've Been Served,5.82,L1485
+01/16/2014,Ouzeri Elian,12.47,L1485
+01/16/2014,Brewed Awakenings,6.53,L5947
+01/16/2014,Hippokampos,10.38,L5947
+01/16/2014,Guy's Gyros,31.48,L6119
+01/16/2014,Hallowed Grounds,13.84,L6119
+01/16/2014,Katerina’s Café,10.93,L6119
+01/16/2014,Bean There Done That,5.56,L3014
+01/16/2014,Guy's Gyros,32.8,L3014
+01/16/2014,Shoppers' Delight,100.69,L3014
+01/16/2014,Brewed Awakenings,6.39,L2070
+01/16/2014,Hippokampos,17.66,L2070
+01/16/2014,Hippokampos,14.89,L4149
+01/16/2014,Hippokampos,29.13,L4149
+01/16/2014,Guy's Gyros,11.31,L6544
+01/16/2014,Hallowed Grounds,18.2,L6544
+01/16/2014,Frydos Autosupply n' More,53.37,L4424
+01/16/2014,Gelatogalore,32.4,L4424
+01/16/2014,Hallowed Grounds,7.22,L4424
+01/16/2014,Albert's Fine Clothing,91.71,L5259
+01/16/2014,Brew've Been Served,16.9,L5259
+01/16/2014,Guy's Gyros,29.7,L5259
+01/16/2014,Brew've Been Served,7.31,L3800
+01/16/2014,Guy's Gyros,25.57,L3800
+01/16/2014,Kalami Kafenion,8.86,L3800
+01/16/2014,Hallowed Grounds,4.98,L5553
+01/16/2014,Hippokampos,29.93,L5553
+01/16/2014,Katerina’s Café,13.91,L5553
+01/16/2014,Bean There Done That,17.4,L3366
+01/16/2014,Hippokampos,34,L3366
+01/16/2014,Kalami Kafenion,26.32,L3366
+01/16/2014,Brew've Been Served,12.83,L8148
+01/16/2014,Guy's Gyros,13.48,L8148
+01/16/2014,Guy's Gyros,30.76,L8148
+01/16/2014,Abila Airport,1676.53,L7761
+01/16/2014,Nationwide Refinery,2047.28,L7761
+01/16/2014,Stewart and Sons Fabrication,860.3,L7761
+01/16/2014,Brew've Been Served,12.67,L3572
+01/16/2014,Shoppers' Delight,16.84,L3572
+01/16/2014,Brew've Been Served,19.9,L2490
+01/16/2014,Guy's Gyros,8.31,L2490
+01/16/2014,Katerina’s Café,34.02,L2490
+01/16/2014,Abila Airport,3917.3,L2769
+01/16/2014,Abila Airport,3032.97,L2769
+01/16/2014,Brew've Been Served,17.44,L2169
+01/16/2014,Gelatogalore,10.62,L2169
+01/16/2014,Roberts and Sons,155.76,L2169
+01/16/2014,Carlyle Chemical Inc.,419.93,L5756
+01/16/2014,Carlyle Chemical Inc.,1814.24,L5756
+01/16/2014,Katerina’s Café,34.9,L5756
+01/16/2014,Nationwide Refinery,4742.67,L5756
+01/16/2014,Nationwide Refinery,1494.44,L9633
+01/16/2014,Stewart and Sons Fabrication,4543.31,L9633
+01/16/2014,Katerina’s Café,19.44,L9637
+01/16/2014,Abila Zacharo,64.71,L3288
+01/16/2014,Jack's Magical Beans,14.86,L3288
+01/16/2014,Ouzeri Elian,29.99,L3288
+01/16/2014,Hallowed Grounds,17.74,L7814
+01/16/2014,Kalami Kafenion,11.83,L7814
+01/16/2014,Katerina’s Café,34.58,L7814
+01/16/2014,Gelatogalore,22.19,L3259
+01/16/2014,Hallowed Grounds,12.61,L3259
+01/16/2014,Katerina’s Café,10.84,L3259
+01/16/2014,Abila Zacharo,31.31,L9362
+01/16/2014,Coffee Cameleon,7.19,L9362
+01/16/2014,Katerina’s Café,14.34,L9362
+01/16/2014,Abila Zacharo,8.43,L9363
+01/16/2014,Guy's Gyros,28.27,L9363
+01/16/2014,Abila Scrapyard,1897.05,L3317
+01/16/2014,Abila Airport,3138.98,L3317
+01/16/2014,Jack's Magical Beans,12.56,L5224
+01/16/2014,Guy's Gyros,31.31,L7291
+01/16/2014,Katerina’s Café,11.08,L7291
+01/16/2014,Brew've Been Served,4.7,L8566
+01/16/2014,Guy's Gyros,37.8,L8566
+01/16/2014,Brew've Been Served,8.18,L9254
+01/16/2014,Hippokampos,18.18,L9254
+01/16/2014,Roberts and Sons,240.66,L9254
+01/16/2014,Gelatogalore,12.33,L6886
+01/16/2014,Jack's Magical Beans,6.95,L6886
+01/17/2014,Hallowed Grounds,9.4,L5777
+01/17/2014,Ouzeri Elian,35.81,L5777
+01/17/2014,Bean There Done That,19.67,L7783
+01/17/2014,Bean There Done That,8.21,L3191
+01/17/2014,Gelatogalore,23.23,L3191
+01/17/2014,Hippokampos,12.86,L3191
+01/17/2014,Brewed Awakenings,8.16,L4164
+01/17/2014,Guy's Gyros,8.64,L4164
+01/17/2014,Hippokampos,11.93,L4164
+01/17/2014,Jack's Magical Beans,7.57,L6267
+01/17/2014,Ouzeri Elian,38.6,L6267
+01/17/2014,Coffee Cameleon,6.81,L1682
+01/17/2014,Kalami Kafenion,140.78,L1682
+01/17/2014,Katerina’s Café,19.09,L1682
+01/17/2014,Brew've Been Served,3.09,L1485
+01/17/2014,Guy's Gyros,39.14,L1485
+01/17/2014,Guy's Gyros,8.54,L1485
+01/17/2014,Brewed Awakenings,8.69,L5947
+01/17/2014,Chostus Hotel,119.62,L5947
+01/17/2014,Hippokampos,8.92,L5947
+01/17/2014,Hallowed Grounds,14.58,L6119
+01/17/2014,Katerina’s Café,32.13,L6119
+01/17/2014,Bean There Done That,19.56,L3014
+01/17/2014,Hippokampos,10.14,L3014
+01/17/2014,Abila Zacharo,8.78,L2070
+01/17/2014,Brewed Awakenings,6,L2070
+01/17/2014,Hippokampos,14.93,L2070
+01/17/2014,Albert's Fine Clothing,1239.41,L4149
+01/17/2014,Bean There Done That,18.72,L4149
+01/17/2014,Katerina’s Café,13.11,L4149
+01/17/2014,General Grocer,78.03,L6544
+01/17/2014,Kalami Kafenion,27.73,L6544
+01/17/2014,Hallowed Grounds,18.6,L4424
+01/17/2014,Kalami Kafenion,20.02,L4424
+01/17/2014,Brew've Been Served,15.46,L5259
+01/17/2014,Gelatogalore,34.59,L5259
+01/17/2014,Guy's Gyros,8.31,L5259
+01/17/2014,Brew've Been Served,12.56,L3800
+01/17/2014,Shoppers' Delight,155.01,L3800
+01/17/2014,Hallowed Grounds,15.98,L5553
+01/17/2014,Hippokampos,28.35,L5553
+01/17/2014,Abila Zacharo,21.21,L3366
+01/17/2014,Bean There Done That,5.77,L3366
+01/17/2014,Coffee Cameleon,9.16,L8148
+01/17/2014,Guy's Gyros,19.68,L8148
+01/17/2014,Hippokampos,15.77,L8148
+01/17/2014,Brew've Been Served,11.04,L3572
+01/17/2014,Shoppers' Delight,269.33,L3572
+01/17/2014,Brew've Been Served,13.66,L2490
+01/17/2014,Guy's Gyros,22.18,L2490
+01/17/2014,Guy's Gyros,37.55,L2490
+01/17/2014,Guy's Gyros,15.4,L2169
+01/17/2014,Katerina’s Café,35.52,L2169
+01/17/2014,Stewart and Sons Fabrication,1753.17,L9633
+01/17/2014,Abila Zacharo,14.51,L9637
+01/17/2014,Coffee Cameleon,14.57,L9637
+01/17/2014,Katerina’s Café,38.21,L9637
+01/17/2014,Hallowed Grounds,3.25,L8012
+01/17/2014,Katerina’s Café,21.22,L8012
+01/17/2014,Hippokampos,52.31,L3288
+01/17/2014,Jack's Magical Beans,19.11,L3288
+01/17/2014,Ouzeri Elian,10.21,L3288
+01/17/2014,Gelatogalore,21.62,L7814
+01/17/2014,Hallowed Grounds,18.22,L7814
+01/17/2014,Katerina’s Café,22.18,L7814
+01/17/2014,Brew've Been Served,16.62,L3259
+01/17/2014,Katerina’s Café,27.49,L3259
+01/17/2014,Coffee Cameleon,10.27,L9362
+01/17/2014,Katerina’s Café,21.01,L9362
+01/17/2014,Brew've Been Served,5.29,L9363
+01/17/2014,Guy's Gyros,16.83,L9363
+01/17/2014,Abila Zacharo,15.95,L2459
+01/17/2014,Hallowed Grounds,9.72,L2459
+01/17/2014,Gelatogalore,15.84,L5224
+01/17/2014,Brew've Been Served,12.3,L7291
+01/17/2014,Chostus Hotel,114.22,L7291
+01/17/2014,Guy's Gyros,29.71,L7291
+01/17/2014,Brew've Been Served,19.39,L8566
+01/17/2014,Guy's Gyros,35.1,L8566
+01/17/2014,Hippokampos,14.57,L8566
+01/17/2014,Abila Zacharo,39.67,L9254
+01/17/2014,Brew've Been Served,10.52,L9254
+01/17/2014,Hippokampos,38.19,L6886
+01/17/2014,Kalami Kafenion,25.32,L6886
+01/18/2014,Abila Zacharo,16.59,L5777
+01/18/2014,Kronos Mart,194.51,L5777
+01/18/2014,Ouzeri Elian,21.56,L5777
+01/18/2014,Hippokampos,72.5,L7783
+01/18/2014,Frank's Fuel,52.66,L3191
+01/18/2014,Kalami Kafenion,11.14,L3191
+01/18/2014,Katerina’s Café,96.36,L4164
+01/18/2014,Ouzeri Elian,57.63,L6267
+01/18/2014,Abila Zacharo,18.45,L1682
+01/18/2014,Roberts and Sons,62.47,L1682
+01/18/2014,Kalami Kafenion,10.48,L1485
+01/18/2014,Katerina’s Café,9.72,L1485
+01/18/2014,Abila Zacharo,73.25,L5947
+01/18/2014,Roberts and Sons,239.65,L5947
+01/18/2014,Katerina’s Café,8.14,L6119
+01/18/2014,Frydos Autosupply n' More,103.55,L3014
+01/18/2014,Hippokampos,20.11,L3014
+01/18/2014,Hippokampos,63.21,L2070
+01/18/2014,Kalami Kafenion,42.36,L2070
+01/18/2014,Kronos Mart,150.36,L2070
+01/18/2014,Kalami Kafenion,24.14,L4149
+01/18/2014,Frydos Autosupply n' More,281.54,L4424
+01/18/2014,Guy's Gyros,27.4,L4424
+01/18/2014,Katerina’s Café,22.74,L4424
+01/18/2014,Katerina’s Café,37.21,L5259
+01/18/2014,Ahaggo Museum,120.2,L3800
+01/18/2014,Guy's Gyros,31.48,L3800
+01/18/2014,Guy's Gyros,47.89,L5553
+01/18/2014,Roberts and Sons,266.69,L5553
+01/18/2014,Albert's Fine Clothing,35.66,L3366
+01/18/2014,Hippokampos,27.21,L3366
+01/18/2014,Ouzeri Elian,33.57,L3366
+01/18/2014,Guy's Gyros,39.68,L2490
+01/18/2014,Katerina’s Café,19.3,L2490
+01/18/2014,Kronos Mart,87.66,L2490
+01/18/2014,Katerina’s Café,33.41,L2169
+01/18/2014,Katerina’s Café,33.63,L8012
+01/18/2014,Ahaggo Museum,55.55,L3288
+01/18/2014,Hippokampos,49.21,L3288
+01/18/2014,General Grocer,477.6,L9362
+01/18/2014,Katerina’s Café,76.1,L9362
+01/18/2014,Ouzeri Elian,53.36,L9362
+01/18/2014,General Grocer,108.49,L9363
+01/18/2014,Kalami Kafenion,53.36,L9363
+01/18/2014,Chostus Hotel,600,L2459
+01/18/2014,Katerina’s Café,14.22,L2459
+01/18/2014,Abila Zacharo,111.93,L5224
+01/18/2014,Albert's Fine Clothing,226.49,L5224
+01/18/2014,Shoppers' Delight,258.33,L5224
+01/18/2014,Abila Zacharo,21.29,L8566
+01/18/2014,Katerina’s Café,19.31,L9254
+01/18/2014,Frydos Autosupply n' More,120.67,L6886
+01/18/2014,Hippokampos,53.21,L6886
+01/18/2014,Kalami Kafenion,38.91,L6886
+01/19/2014,Hippokampos,78.96,L7783
+01/19/2014,Hippokampos,101.25,L3191
+01/19/2014,Desafio Golf Course,145.72,L4164
+01/19/2014,Ouzeri Elian,67.98,L6267
+01/19/2014,Guy's Gyros,20.94,L1485
+01/19/2014,Albert's Fine Clothing,254.29,L5947
+01/19/2014,Katerina’s Café,34.03,L6119
+01/19/2014,Hippokampos,11.56,L3014
+01/19/2014,Desafio Golf Course,190.91,L2070
+01/19/2014,Hippokampos,48.23,L2070
+01/19/2014,Guy's Gyros,36.87,L6544
+01/19/2014,Katerina’s Café,33.79,L4424
+01/19/2014,Guy's Gyros,65.21,L3800
+01/19/2014,Ouzeri Elian,45.32,L3800
+01/19/2014,Katerina’s Café,38.9,L5553
+01/19/2014,Gelatogalore,22.36,L3366
+01/19/2014,General Grocer,70.22,L3366
+01/19/2014,Hippokampos,46.32,L3366
+01/19/2014,Guy's Gyros,40.36,L8148
+01/19/2014,Frydos Autosupply n' More,56.09,L2490
+01/19/2014,Guy's Gyros,58.35,L2490
+01/19/2014,Ouzeri Elian,23.65,L2490
+01/19/2014,Guy's Gyros,31.94,L2169
+01/19/2014,Katerina’s Café,26.76,L2169
+01/19/2014,Albert's Fine Clothing,274.66,L9637
+01/19/2014,Shoppers' Delight,30.39,L9637
+01/19/2014,Ahaggo Museum,26.91,L3288
+01/19/2014,Guy's Gyros,23.21,L3288
+01/19/2014,Frydos Autosupply n' More,98.04,L3259
+01/19/2014,Katerina’s Café,12.25,L9362
+01/19/2014,Abila Zacharo,47.8,L9363
+01/19/2014,Guy's Gyros,39.6,L9363
+01/19/2014,Desafio Golf Course,148.22,L2459
+01/19/2014,Guy's Gyros,25.79,L2459
+01/19/2014,Desafio Golf Course,150.07,L5224
+01/19/2014,Hippokampos,45.32,L5224
+01/19/2014,Guy's Gyros,37.48,L7291
+01/19/2014,Frydos Autosupply n' More,209.76,L8566
+01/19/2014,Katerina’s Café,70.22,L8566
+01/19/2014,Guy's Gyros,18.08,L9254
+01/19/2014,Katerina’s Café,35.01,L9254
+01/19/2014,Desafio Golf Course,110.02,L6886
+01/19/2014,Hippokampos,63.17,L6886
