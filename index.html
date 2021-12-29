@@ -350,9 +350,14 @@
 				<select id="option_area"  name="option" style = "height:50px;font-size:30px;border-radius:10px;background:white;color:black;top: 100px">
 					<option value="0" id="Relevant">mbdata/ccdata</option>
 					<option value="1" id="Chatter">Relevant/Chatter/Spam</option>
+					<option value="2" id="POK">POK</option>
 				</select>
 				<svg id="SVG"></svg>
 				
+			</div>
+			<div class="lsiblock">
+				<h2 style="text-align: center;">Write Down Box</h2>
+				<textarea style="width: 1600px;height: 900px;font-size:30px;margin: 50px 0px 0px 100px;padding: 20px 20px 20px 20px;"></textarea>
 			</div>
 		</div>
 		<!-- <form name="block" action="" method="" style="position:absolute;top:0px;left:0px;">
@@ -613,6 +618,35 @@
 										.attr("cx", 5*margin+200).attr("cy", height-3*margin).attr("class", "area1")
 								brushmap.append("text").text("Spam").attr("class", "area1")
 									.attr("transform", `translate(${5*margin+210}, ${height-3*margin+5})`)
+							}
+							if (+document.main.option.value==2){
+								d3.selectAll(".container").remove()
+								key_mbdata = new Array()
+								for (let item of mbdata["Relevant"]){
+									if (item.author == "POK"){
+										key_mbdata.push(item)
+									}
+								}
+								d3.select("#blocktitle").text(key_mbdata.length+"/"+mbdata["Relevant"].length)
+								var container = d3.select("#Relevantblock")
+									.selectAll(".container").data(key_mbdata).enter()
+									.append("div")
+									.attr("class", "container")
+									.attr("id", "container_Relevant")
+								container.append("p").text(d=>d.time).attr("class", "time")
+								var text = container.append('p')
+									.attr('class', 'text')
+								text.append("span")
+									.text(d=>d.author+": ")
+									.attr("class", "author")
+								text.append("span")
+									.text(d=>d.rt)
+									.attr("class", "tags")
+								text.append("span")
+									.text(d=>d.message)
+								text.append("span")
+									.text(d=>d.tags)
+									.attr("class", "tags")
 							}
 						})
 					
@@ -950,7 +984,17 @@
 						var text = container.append('p')
 							.attr('class', 'text')
 						text.append("span")
-							.text(d=>d.author+": ")
+							.text(d=>{
+								if (+document.single.test.value !== 3){
+									return d.author+": "
+								} else {
+									if (d.location !== 0){
+										return d.location+": "
+									} else {
+										return ""
+									}
+								}
+							})
 							.attr("class", "author")
 						text.append("span")
 							.text(d=>d.rt)
